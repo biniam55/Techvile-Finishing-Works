@@ -13,7 +13,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-88xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-88xl);
   background-image: url(/public/pictures6@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,25 +47,26 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
-.div12,
-.div14 {
+.div15,
+.div17 {
   overflow: hidden;
 }
-.div12 {
+.div15 {
   height: 322px;
   border-radius: var(--br-xs);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-7xl);
   max-width: 100%;
 }
-.div14 {
+.div17 {
   align-self: stretch;
   width: 120px;
   position: relative;
@@ -79,7 +80,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-88xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-88xl);
   background-image: url(/public/pictures6@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,31 +114,32 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
-.div13,
+.div16,
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.div13 {
+.div16 {
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-xs);
   overflow: hidden;
   align-items: flex-end;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   gap: var(--gap-7xl);
 }
 .wrapper {
   height: 322px;
   align-items: flex-start;
-  padding: 0 var(--padding-5xs) 0 0;
+  padding: var(--padding-0) var(--padding-5xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   max-width: 100%;
 }
-.div16 {
+.div19 {
   align-self: stretch;
   width: 120px;
   position: relative;
@@ -152,7 +154,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-88xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-88xl);
   background-image: url(/public/pictures6@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -186,9 +188,10 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
-.div15 {
+.div18 {
   height: 322px;
   border-radius: var(--br-xs);
   overflow: hidden;
@@ -196,7 +199,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-7xl);
   max-width: 100%;
@@ -218,7 +221,8 @@
   align-self: stretch;
   display: flex;
   justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-9xl);
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0)
+    var(--padding-9xl);
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;

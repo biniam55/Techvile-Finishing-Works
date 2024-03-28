@@ -88,9 +88,9 @@
   padding: var(--padding-7xs) var(--padding-base-6) var(--padding-9xs);
   gap: var(--gap-5xs);
 }
-.frame-child22,
-.frame-child23,
-.frame-child24,
+.frame-child26,
+.frame-child27,
+.frame-child28,
 .rectangle-footer {
   align-self: stretch;
   height: 32px;
@@ -98,7 +98,7 @@
   background-color: var(--color-whitesmoke-100);
   backdrop-filter: blur(4px);
 }
-.frame-child24,
+.frame-child28,
 .rectangle-footer {
   background-color: var(--color-whitesmoke-400);
 }

@@ -33,7 +33,7 @@ const FrameComponent9 = ({
 
   return (
     <section className="frame" style={frameSectionStyle}>
-      <div className="div19" style={div1Style}>
+      <div className="div22" style={div1Style}>
         <div className="pictures9" style={picturesStyle}>
           <div className="f-r-a-m-e" />
           <div className="pictures-child4" />

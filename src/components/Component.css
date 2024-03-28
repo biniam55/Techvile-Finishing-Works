@@ -31,19 +31,19 @@
   flex-direction: column;
   gap: var(--gap-7xs);
 }
-.div3,
-.icon-library,
+.div6,
+.icon-library1,
 .shape-maker {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.icon-library {
+.icon-library1 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-5xl);
 }
-.div3 {
+.div6 {
   height: 325px;
   width: 304px;
   border-radius: var(--br-xs);
@@ -51,7 +51,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
   text-align: left;

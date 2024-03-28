@@ -34,7 +34,7 @@
 .dashboard-inner {
   height: 82px;
   justify-content: flex-start;
-  padding: 0 var(--padding-3xs) 58px var(--padding-9xs);
+  padding: var(--padding-0) var(--padding-3xs) 58px var(--padding-9xs);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--material-2-title-size);
@@ -79,7 +79,7 @@
 }
 .user-profile-icon {
   flex-direction: column;
-  padding: var(--padding-10xs) 0 0;
+  padding: var(--padding-10xs) var(--padding-0) var(--padding-0);
 }
 .empty-label,
 .service {
@@ -109,7 +109,8 @@
 }
 .empty-label-wrapper {
   flex-direction: row;
-  padding: 0 var(--padding-lg) 0 var(--padding-mid);
+  padding: var(--padding-0) var(--padding-lg) var(--padding-0)
+    var(--padding-mid);
   font-size: var(--font-size-5xl);
   color: var(--color-darkslategray-200);
 }
@@ -132,7 +133,7 @@
 .dashboard-inner1 {
   width: 270px;
   justify-content: flex-start;
-  padding: 0 var(--padding-47xl) var(--padding-sm);
+  padding: var(--padding-0) var(--padding-47xl) var(--padding-sm);
   box-sizing: border-box;
 }
 .all-posts {
@@ -151,7 +152,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-base);
+  padding: var(--padding-0) var(--padding-base);
   box-sizing: border-box;
   font-size: var(--material-2-title-size);
   color: var(--color-black);
@@ -159,7 +160,7 @@
 .dashboard1 {
   width: 100%;
   position: relative;
-  background-color: #f9fbff;
+  background-color: var(--color-ghostwhite-100);
   overflow: hidden;
   flex-direction: column;
   padding: var(--padding-mini) var(--padding-4xs) var(--padding-mini)

@@ -1,0 +1,168 @@
+.our-company5 {
+  flex: 1;
+  position: relative;
+  line-height: 39px;
+  z-index: 2;
+}
+.our-company-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    var(--padding-11xs);
+}
+.testimonials8 {
+  position: relative;
+  line-height: 34.9px;
+  display: inline-block;
+  min-width: 75px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.testimonials-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
+}
+.contact5 {
+  position: relative;
+  line-height: 34.9px;
+  display: inline-block;
+  min-width: 46px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.contact-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
+  margin-top: -9.9px;
+}
+.gallery19 {
+  position: relative;
+  line-height: 34.9px;
+  display: inline-block;
+  min-width: 40px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+  margin-top: -9.9px;
+}
+.contact-container,
+.frame-parent51 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-container {
+  margin-top: -3px;
+  font-size: var(--font-size-smi);
+  color: var(--white);
+  font-family: var(--material-2-secondary-text);
+}
+.frame-parent51 {
+  flex: 1;
+}
+.signup-button-instance {
+  width: 24px;
+  height: 23px;
+  position: relative;
+  z-index: 3;
+}
+.company-logo1 {
+  height: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.subscribe-button-instance {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39px;
+  height: 34px;
+  overflow: hidden;
+  z-index: 2;
+}
+.reset-button-instance {
+  position: absolute;
+  top: 4px;
+  left: 32px;
+  width: 24px;
+  height: 23px;
+  z-index: 3;
+}
+.subscribe-button-instance-parent {
+  height: 34px;
+  flex: 1;
+  position: relative;
+}
+.company-logo-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.company-logo-parent,
+.frame-parent50,
+.frame-wrapper19,
+.frame-wrapper20 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper20 {
+  width: 91px;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  margin-left: -0.2px;
+}
+.frame-parent50,
+.frame-wrapper19 {
+  flex-direction: row;
+}
+.frame-parent50 {
+  flex: 1;
+}
+.frame-wrapper19 {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-6xs);
+}
+.copyright-20245 {
+  width: 265px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 35px;
+  font-family: var(--material-2-secondary-text);
+  color: var(--white);
+  display: inline-block;
+  z-index: 2;
+}
+.frame-parent49 {
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-11xl-1);
+  text-align: left;
+  font-size: var(--material-2-title-size);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-raleway);
+}

@@ -1,4 +1,4 @@
-.frame-child17 {
+.frame-child21 {
   height: 50px;
   width: 161px;
   position: relative;
@@ -21,13 +21,13 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.frame-wrapper13,
-.rectangle-parent10 {
+.frame-wrapper16,
+.rectangle-parent11 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
-.rectangle-parent10 {
+.rectangle-parent11 {
   cursor: pointer;
   border: 1px solid var(--color-midnightblue);
   padding: var(--padding-xs) var(--padding-17xl-8);
@@ -37,13 +37,14 @@
   box-sizing: border-box;
   justify-content: flex-start;
 }
-.frame-wrapper13 {
+.frame-wrapper16 {
   align-self: stretch;
   justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-10xl);
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0)
+    var(--padding-10xl);
 }
-.frame-child18,
-.frame-child19 {
+.frame-child22,
+.frame-child23 {
   width: 360px;
   height: 479px;
   position: relative;
@@ -51,21 +52,21 @@
   display: none;
   max-width: 100%;
 }
-.frame-child19 {
+.frame-child23 {
   height: 489px;
   background-color: var(--color-gray-300);
 }
-.about-us5 {
+.about-us6 {
   position: relative;
   line-height: 38px;
   display: inline-block;
   min-width: 71px;
   z-index: 2;
 }
-.crafting-excellence-through5 {
+.crafting-excellence-through6 {
   margin: 0;
 }
-.crafting-excellence-through-container5 {
+.crafting-excellence-through-container6 {
   align-self: stretch;
   height: 68px;
   position: relative;
@@ -76,15 +77,15 @@
   flex-shrink: 0;
   z-index: 2;
 }
-.about-us-parent1 {
+.about-us-parent2 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-5xs) 0 0;
+  padding: var(--padding-0) var(--padding-5xs) var(--padding-0) var(--padding-0);
 }
-.contact-info5 {
+.contact-info6 {
   width: 187.5px;
   position: relative;
   font-size: var(--material-2-title-size);
@@ -97,21 +98,21 @@
   z-index: 2;
 }
 .fyn-finishing-work,
-.fyngmailcom5,
-.rd-floor-somewhere5 {
+.fyngmailcom6,
+.rd-floor-somewhere6 {
   position: relative;
   flex-shrink: 0;
   debug_commit: f6aba90;
   z-index: 2;
   margin-top: -7px;
 }
-.rd-floor-somewhere5 {
+.rd-floor-somewhere6 {
   align-self: stretch;
   line-height: 35px;
   white-space: pre-wrap;
 }
 .fyn-finishing-work,
-.fyngmailcom5 {
+.fyngmailcom6 {
   line-height: 34.9px;
 }
 .fyn-finishing-work {
@@ -120,7 +121,7 @@
   box-sizing: border-box;
   padding-right: var(--padding-xl);
 }
-.fyngmailcom5 {
+.fyngmailcom6 {
   align-self: stretch;
 }
 .company-logo {
@@ -130,32 +131,32 @@
   font-family: var(--material-2-secondary-text);
 }
 .company-logo,
-.frame-parent41,
-.frame-wrapper14 {
+.frame-parent44,
+.frame-wrapper17 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-parent41 {
+.frame-parent44 {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-4xs);
 }
-.frame-wrapper14 {
+.frame-wrapper17 {
   width: 246.5px;
   flex-direction: row;
-  padding: 0 var(--padding-4xs);
+  padding: var(--padding-0) var(--padding-4xs);
   box-sizing: border-box;
 }
-.frame-parent40,
-.rectangle-parent11 {
+.frame-parent43,
+.rectangle-parent12 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 100%;
 }
-.rectangle-parent11 {
+.rectangle-parent12 {
   background-color: var(--color-gray-300);
   align-items: flex-start;
   padding: var(--padding-14xl) var(--padding-8xs) var(--padding-2xs);
@@ -167,7 +168,7 @@
   color: var(--white);
   font-family: var(--font-raleway);
 }
-.frame-parent40 {
+.frame-parent43 {
   align-items: flex-end;
   gap: var(--gap-sm);
 }

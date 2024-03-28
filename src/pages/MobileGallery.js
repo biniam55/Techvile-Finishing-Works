@@ -30,8 +30,8 @@ const MobileGallery = () => {
       </section>
       <FrameComponent9 />
       <FrameComponent9
-        propPadding="0px var(--padding-15xl) var(--padding-5xs) var(--padding-7xl)"
-        propPadding1="0px 0px var(--padding-5xl)"
+        propPadding="var(--padding-0) var(--padding-15xl) var(--padding-5xs) var(--padding-7xl)"
+        propPadding1="var(--padding-0) var(--padding-0) var(--padding-5xl)"
         propBackgroundImage="url('/pictures8@3x.png')"
         propWidth="276px"
       />

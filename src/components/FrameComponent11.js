@@ -7,9 +7,9 @@ const FrameComponent11 = () => {
         <div className="total-gallery-title">
           <h3 className="total-gallery">Total Gallery</h3>
         </div>
-        <div className="frame-parent42">
-          <div className="vector-group">
-            <img className="frame-child20" alt="" src="/rectangle-15.svg" />
+        <div className="frame-parent45">
+          <div className="vector-parent1">
+            <img className="frame-child24" alt="" src="/rectangle-15.svg" />
             <img
               className="frame-icon20"
               loading="lazy"
@@ -27,7 +27,7 @@ const FrameComponent11 = () => {
               />
               <div className="gallery-title-group">
                 <div className="gallery-title">
-                  <div className="div20">10</div>
+                  <div className="div23">10</div>
                 </div>
                 <div className="images">Images</div>
               </div>

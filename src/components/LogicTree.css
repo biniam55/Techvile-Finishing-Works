@@ -31,7 +31,8 @@
 .input-handler {
   height: 24px;
   justify-content: flex-end;
-  padding: 0 var(--padding-lg) 0 var(--padding-lgi);
+  padding: var(--padding-0) var(--padding-lg) var(--padding-0)
+    var(--padding-lgi);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--material-2-title-size);

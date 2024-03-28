@@ -170,10 +170,10 @@ const GlobalScope = ({ title, group304, group305 }) => {
                     <div className="divider23" />
                   </div>
                 </div>
-                <div className="frame-parent34">
-                  <img className="frame-child9" alt="" src={group304} />
+                <div className="frame-parent37">
+                  <img className="frame-child13" alt="" src={group304} />
                   <img
-                    className="frame-child10"
+                    className="frame-child14"
                     loading="lazy"
                     alt=""
                     src={group305}

@@ -7,7 +7,7 @@ const PaddingPadding = () => {
         <img
           className="maps-zoom-levels-2-city1"
           alt=""
-          src="/maps--zoom-levels--2-city@2x.png"
+          src="/maps--zoom-levels--2-city1@2x.png"
         />
         <div className="shadow-shaper1">
           <img
@@ -17,16 +17,16 @@ const PaddingPadding = () => {
             src="/controls--google-logo--color1.svg"
           />
           <div className="controls-google-maps-byline1">
-            <div className="rectangle-parent6">
-              <div className="frame-child12" />
+            <div className="rectangle-parent7">
+              <div className="frame-child16" />
               <div className="map-data-20191">Map data @2019 Google</div>
             </div>
-            <div className="rectangle-parent7">
-              <div className="frame-child13" />
+            <div className="rectangle-parent8">
+              <div className="frame-child17" />
               <div className="terms-of-use1">Terms of Use</div>
             </div>
-            <div className="rectangle-parent8">
-              <div className="frame-child14" />
+            <div className="rectangle-parent9">
+              <div className="frame-child18" />
               <div className="report-a-map1">Report a map error</div>
             </div>
           </div>

@@ -13,7 +13,7 @@
   height: 1.1px;
   background-color: var(--color-gray-600);
 }
-.about-us1 {
+.about-us2 {
   margin: 0;
   width: 133.2px;
   height: 41.8px;
@@ -26,10 +26,10 @@
   flex-shrink: 0;
   z-index: 2;
 }
-.crafting-excellence-through1 {
+.crafting-excellence-through2 {
   margin: 0;
 }
-.crafting-excellence-through-container1 {
+.crafting-excellence-through-container2 {
   margin: 0;
   align-self: stretch;
   height: 184.8px;
@@ -52,15 +52,15 @@
   min-width: 265px;
   max-width: 100%;
 }
-.contact-info1,
-.rd-floor-somewhere1 {
+.contact-info2,
+.rd-floor-somewhere2 {
   margin: 0;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
   z-index: 2;
 }
-.contact-info1 {
+.contact-info2 {
   width: 181.2px;
   height: 41.8px;
   position: relative;
@@ -68,13 +68,13 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.rd-floor-somewhere1 {
+.rd-floor-somewhere2 {
   align-self: stretch;
   white-space: pre-wrap;
 }
-.div4,
-.fyngmailcom1,
-.rd-floor-somewhere1 {
+.div7,
+.fyngmailcom2,
+.rd-floor-somewhere2 {
   height: 37.4px;
   position: relative;
   line-height: 33.43px;
@@ -82,12 +82,12 @@
   flex-shrink: 0;
   debug_commit: f6aba90;
 }
-.div4 {
+.div7 {
   min-width: 96px;
   z-index: 3;
   margin-top: -0.6px;
 }
-.fyngmailcom1 {
+.fyngmailcom2 {
   width: 247.2px;
   font-size: inherit;
   font-weight: 400;
@@ -146,7 +146,7 @@
   height: 37.5px;
 }
 .contact,
-.gallery7,
+.gallery8,
 .testimonials1 {
   position: relative;
   line-height: 33.43px;
@@ -163,7 +163,7 @@
   white-space: pre-wrap;
   z-index: 2;
 }
-.gallery7 {
+.gallery8 {
   height: 37.4px;
   font-size: var(--material-2-title-size);
   min-width: 49px;
@@ -245,7 +245,7 @@
   width: 1279.2px;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-17xl) var(--padding-8xs-3);
+  padding: var(--padding-0) var(--padding-17xl) var(--padding-8xs-3);
   box-sizing: border-box;
   flex-shrink: 0;
 }
@@ -280,7 +280,7 @@
 .checkbox-gathering {
   width: 477.6px;
   flex-direction: row;
-  padding: 0 var(--padding-17xl);
+  padding: var(--padding-0) var(--padding-17xl);
   box-sizing: border-box;
   flex-shrink: 0;
 }
@@ -298,7 +298,7 @@
 .group-section {
   height: 637.8px;
   background-color: var(--color-gray-300);
-  padding: var(--padding-112xl-9) 0 var(--padding-15xl-1);
+  padding: var(--padding-112xl-9) var(--padding-0) var(--padding-15xl-1);
   box-sizing: border-box;
   gap: var(--gap-113xl);
   text-align: left;
@@ -339,14 +339,14 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .about-us1 {
+  .about-us2 {
     font-size: var(--font-size-xl);
     line-height: 30px;
   }
   .hue-hueger {
     gap: 17px 34.1px;
   }
-  .contact-info1 {
+  .contact-info2 {
     font-size: var(--font-size-xl);
     line-height: 30px;
   }

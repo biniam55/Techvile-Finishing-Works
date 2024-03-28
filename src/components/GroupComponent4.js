@@ -2,14 +2,14 @@ import "./GroupComponent4.css";
 
 const GroupComponent4 = () => {
   return (
-    <section className="rectangle-parent9">
-      <div className="frame-child15" />
-      <div className="frame-child16" />
+    <section className="rectangle-parent10">
+      <div className="frame-child19" />
+      <div className="frame-child20" />
       <div className="loop-manager">
         <div className="variable-vault">
-          <b className="about-us4">About Us</b>
-          <div className="crafting-excellence-through-container4">
-            <p className="crafting-excellence-through4">
+          <b className="about-us5">About Us</b>
+          <div className="crafting-excellence-through-container5">
+            <p className="crafting-excellence-through5">
               Crafting excellence through precision and passion, we redefine
               spaces with our expert finishing works
             </p>
@@ -18,12 +18,12 @@ const GroupComponent4 = () => {
       </div>
       <div className="error-handler1">
         <div className="event-executor">
-          <div className="contact-info4">Contact Info</div>
-          <div className="rd-floor-somewhere4">
+          <div className="contact-info5">Contact Info</div>
+          <div className="rd-floor-somewhere5">
             3rd Floor somewhere, Addis Ababa
           </div>
           <div className="expression-explorer">0965325142</div>
-          <div className="fyngmailcom4">fyn@gmail.com</div>
+          <div className="fyngmailcom5">fyn@gmail.com</div>
         </div>
       </div>
       <div className="parameter-processor">
@@ -39,7 +39,7 @@ const GroupComponent4 = () => {
               <div className="signal-sender1">
                 <div className="contact3">Contact</div>
               </div>
-              <div className="gallery16">Gallery</div>
+              <div className="gallery17">Gallery</div>
             </div>
           </div>
           <div className="error-eliminator">

@@ -13,7 +13,7 @@ const SideMenu = () => {
             src="/setting-1-1.svg"
           />
         </div>
-        <h2 className="dashboard7">Dashboard</h2>
+        <h2 className="dashboard8">Dashboard</h2>
         <div className="v01-container">
           <div className="v011">v.01</div>
         </div>
@@ -27,21 +27,21 @@ const SideMenu = () => {
             src="/icon--24--outline--keysquare-1.svg"
           />
           <div className="manage-posts-dashboard">
-            <div className="dashboard8">Dashboard</div>
+            <div className="dashboard9">Dashboard</div>
           </div>
         </div>
       </div>
-      <div className="frame-parent29">
-        <div className="rectangle-parent5">
-          <div className="frame-child7" />
+      <div className="frame-parent32">
+        <div className="rectangle-parent6">
+          <div className="frame-child11" />
           <img className="frame-icon17" alt="" src="/frame3.svg" />
           <div className="manage-posts-wrapper">
             <div className="manage-posts">Manage Posts</div>
           </div>
         </div>
-        <div className="frame-wrapper8">
-          <div className="frame-parent30">
-            <div className="frame-wrapper9">
+        <div className="frame-wrapper11">
+          <div className="frame-parent33">
+            <div className="frame-wrapper12">
               <img
                 className="frame-icon18"
                 loading="lazy"
@@ -49,15 +49,15 @@ const SideMenu = () => {
                 src="/frame3.svg"
               />
             </div>
-            <div className="gallery14">Gallery</div>
+            <div className="gallery15">Gallery</div>
           </div>
         </div>
       </div>
-      <div className="frame-parent31">
+      <div className="frame-parent34">
         <div className="ellipse-group">
-          <img className="frame-child8" alt="" src="/ellipse-8-1@2x.png" />
-          <div className="frame-wrapper10">
-            <div className="frame-parent32">
+          <img className="frame-child12" alt="" src="/ellipse-8-1@2x.png" />
+          <div className="frame-wrapper13">
+            <div className="frame-parent35">
               <div className="abebe-container">
                 <div className="abebe1">Abebe</div>
               </div>

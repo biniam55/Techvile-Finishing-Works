@@ -1,4 +1,4 @@
-.frame-child5 {
+.frame-child9 {
   height: 706px;
   width: 1440px;
   position: relative;
@@ -26,7 +26,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-12xs);
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    var(--padding-12xs);
   box-sizing: border-box;
   max-width: 100%;
   text-align: left;
@@ -46,25 +47,25 @@
 }
 .input-socket {
   flex: 1;
-  padding: var(--padding-11xl) 0 0;
+  padding: var(--padding-11xl) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   min-width: 225px;
 }
-.frame-parent12,
-.group-div,
-.input-socket {
+.frame-parent15,
+.input-socket,
+.rectangle-parent1 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.frame-parent12 {
+.frame-parent15 {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-66xl);
   min-width: 224px;
 }
-.group-div {
+.rectangle-parent1 {
   align-self: stretch;
   background-color: var(--color-midnightblue);
   flex-direction: row;
@@ -80,7 +81,7 @@
   font-family: var(--font-inter);
 }
 @media screen and (max-width: 1200px) {
-  .group-div {
+  .rectangle-parent1 {
     gap: var(--gap-37xl);
     padding-left: var(--padding-148xl);
     padding-right: var(--padding-132xl);
@@ -88,7 +89,7 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .group-div {
+  .rectangle-parent1 {
     gap: var(--gap-9xl);
     padding: var(--padding-21xl) var(--padding-56xl) var(--padding-10xl)
       var(--padding-64xl);
@@ -103,10 +104,10 @@
   .output-socket {
     gap: 39px 78px;
   }
-  .frame-parent12 {
+  .frame-parent15 {
     gap: 42px 85px;
   }
-  .group-div {
+  .rectangle-parent1 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;

@@ -21,9 +21,9 @@ const FrameComponent10 = () => {
           <b className="action">Action</b>
         </div>
       </div>
-      <div className="frame-child22" />
-      <div className="frame-child23" />
-      <div className="frame-child24" />
+      <div className="frame-child26" />
+      <div className="frame-child27" />
+      <div className="frame-child28" />
       <footer className="rectangle-footer" />
     </section>
   );

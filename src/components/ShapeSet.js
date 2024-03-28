@@ -7,7 +7,7 @@ import "./ShapeSet.css";
 
 const ShapeSet = () => {
   return (
-    <section className="shape-set">
+    <section className="shape-set1">
       <div className="button-bank-parent">
         <div className="button-bank">
           <div className="contact-form-5">
@@ -22,7 +22,7 @@ const ShapeSet = () => {
                     Fill the form so that our team can reach out to you
                   </h2>
                 </div>
-                <div className="frame-parent13">
+                <div className="frame-parent16">
                   <div className="name-parent">
                     <Name1 />
                     <Email />

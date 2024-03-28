@@ -42,7 +42,7 @@
   align-items: center;
   justify-content: flex-end;
 }
-.frame-parent33,
+.frame-parent36,
 .input-text5,
 .input3 {
   align-self: stretch;
@@ -59,14 +59,14 @@
   padding: var(--padding-xs) var(--padding-mini);
   gap: var(--gap-8xs);
 }
-.frame-parent33,
+.frame-parent36,
 .input3 {
   flex-direction: column;
   align-items: flex-start;
   font-size: var(--material-2-secondary-text-size);
   color: var(--foreground-low);
 }
-.frame-parent33 {
+.frame-parent36 {
   gap: var(--gap-xs);
   text-align: left;
   font-size: var(--material-2-title-size);

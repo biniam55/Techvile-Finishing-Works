@@ -12,7 +12,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0)
+    var(--padding-2xl);
 }
 .image-icon9 {
   width: 304px;
@@ -53,7 +54,7 @@
 .mapper {
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-5xl);
 }
 .data-merger1,
 .hierarchy-builder {
@@ -65,7 +66,7 @@
   background-color: var(--white);
   overflow: hidden;
   align-items: flex-start;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   gap: var(--gap-5xl);
   text-align: left;
   font-size: var(--font-size-lg);
@@ -81,7 +82,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-31xl) var(--padding-xl);
+  padding: var(--padding-0) var(--padding-31xl) var(--padding-xl);
   box-sizing: border-box;
   text-align: center;
   font-size: var(--material-2-title-size);

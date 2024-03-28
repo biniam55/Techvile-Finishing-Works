@@ -33,7 +33,7 @@
 .graph-manager {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-5xl);
 }
 .div1,
 .index-calculator {
@@ -50,14 +50,14 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   gap: var(--gap-5xl);
 }
 .index-calculator {
   height: 345px;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-31xl) var(--padding-xl) 54px;
+  padding: var(--padding-0) var(--padding-31xl) var(--padding-xl) 54px;
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--color-black);
@@ -98,7 +98,7 @@
 .stack-manager {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-5xl);
 }
 .timer,
 .timer-wrapper {
@@ -115,14 +115,14 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   gap: var(--gap-5xl);
 }
 .timer-wrapper {
   height: 314px;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-14xl) var(--padding-7xs);
+  padding: var(--padding-0) var(--padding-14xl) var(--padding-7xs);
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-lg);
@@ -180,7 +180,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-7xl) var(--padding-6xs) var(--padding-17xl);
+  padding: var(--padding-0) var(--padding-7xl) var(--padding-6xs)
+    var(--padding-17xl);
 }
 .mobile-home {
   width: 100%;
@@ -190,7 +191,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: var(--padding-mini) 0 0;
+  padding: var(--padding-mini) var(--padding-0) var(--padding-0);
   gap: var(--gap-8xl);
   letter-spacing: normal;
 }

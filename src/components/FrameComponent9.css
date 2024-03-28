@@ -19,7 +19,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-123xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-123xl);
   background-image: url(/public/pictures7@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@
   font-size: var(--font-size-xs);
   color: var(--color-darkslategray-100);
 }
-.div19,
+.div22,
 .f-r-a-m-e1,
 .frame {
   display: flex;
@@ -50,24 +50,25 @@
   align-items: flex-start;
   gap: var(--gap-9xs);
 }
-.div19,
+.div22,
 .frame {
   align-self: stretch;
 }
-.div19 {
+.div22 {
   flex: 1;
   border-radius: var(--br-xs);
   overflow: hidden;
   flex-direction: column;
   align-items: flex-end;
-  padding: 0 0 var(--padding-xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-xl);
   gap: var(--gap-5xl);
 }
 .frame {
   height: 359px;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-15xl) var(--padding-base) var(--padding-23xl);
+  padding: var(--padding-0) var(--padding-15xl) var(--padding-base)
+    var(--padding-23xl);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--material-2-secondary-text-size);

@@ -32,7 +32,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-22xl) 0 0;
+  padding: var(--padding-22xl) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   max-width: calc(100% - 470px);
 }
@@ -50,7 +50,7 @@
 .dashboard-httpsbitlyavi-inner {
   align-self: stretch;
   flex-direction: column;
-  padding: 209px 0 0;
+  padding: 209px var(--padding-0) var(--padding-0);
 }
 .dashboard-httpsbitlyavi {
   width: 100%;
@@ -61,7 +61,7 @@
   height: 100%;
   overflow: hidden;
   flex-direction: row;
-  padding: 0 var(--padding-11xs) 897px;
+  padding: var(--padding-0) var(--padding-11xs) 897px;
   box-sizing: border-box;
   gap: var(--gap-50xl);
   max-width: 100%;
@@ -104,7 +104,7 @@
 .vector-wrapper {
   height: 74px;
   flex-direction: row;
-  padding: 0 0 var(--padding-29xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-29xl);
   box-sizing: border-box;
 }
 .login-now-button1 {
@@ -128,7 +128,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 3.8px;
+  padding: var(--padding-0) var(--padding-0) 3.8px;
   box-sizing: border-box;
 }
 .frame-inner {
@@ -155,7 +155,7 @@
 .upload-image-button {
   width: 575px;
   flex-direction: column;
-  padding: 0 var(--padding-xl) 0 0;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   gap: 55px;
 }
@@ -194,13 +194,13 @@
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-3xs);
+  padding: var(--padding-0) var(--padding-3xs);
 }
 .frame-parent5 {
   width: 808.8px;
   flex-direction: column;
   align-items: flex-end;
-  padding: 0 0 0 var(--padding-xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-xl);
   gap: 65px;
 }
 .frame-wrapper {
@@ -229,7 +229,7 @@
 .dashboard-httpsbitlyavi-child,
 .dashboard-httpsbitlyavi1 {
   width: 903.8px;
-  padding: var(--padding-22xl) 0 0;
+  padding: var(--padding-22xl) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-5xl);
@@ -243,7 +243,7 @@
   width: 100%;
   overflow: hidden;
   flex-direction: row;
-  padding: 0 var(--padding-11xs);
+  padding: var(--padding-0) var(--padding-11xs);
   gap: var(--gap-50xl);
   height: 100%;
   z-index: 3;

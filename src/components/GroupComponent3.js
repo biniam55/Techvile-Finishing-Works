@@ -2,33 +2,33 @@ import "./GroupComponent3.css";
 
 const GroupComponent3 = () => {
   return (
-    <footer className="rectangle-parent2">
+    <footer className="rectangle-parent3">
       <div className="rectangle8" />
       <div className="rectangle9" />
-      <div className="rectangle-parent3">
+      <div className="rectangle-parent4">
         <div className="rectangle10" />
-        <div className="frame-wrapper4">
-          <div className="frame-parent20">
-            <div className="frame-wrapper5">
-              <div className="frame-parent21">
-                <div className="frame-parent22">
-                  <div className="about-us-container">
-                    <h3 className="about-us3">About Us</h3>
-                    <div className="crafting-excellence-through-container3">
-                      <p className="crafting-excellence-through3">
+        <div className="frame-wrapper7">
+          <div className="frame-parent23">
+            <div className="frame-wrapper8">
+              <div className="frame-parent24">
+                <div className="frame-parent25">
+                  <div className="about-us-parent1">
+                    <h3 className="about-us4">About Us</h3>
+                    <div className="crafting-excellence-through-container4">
+                      <p className="crafting-excellence-through4">
                         Crafting excellence through precision and passion, we
                         redefine spaces with our expert finishing works
                       </p>
                     </div>
                   </div>
-                  <div className="contact-info-container">
-                    <h3 className="contact-info3">Contact Info</h3>
+                  <div className="contact-info-parent1">
+                    <h3 className="contact-info4">Contact Info</h3>
                     <div className="rd-floor-somewhere-addis-abab-group">
-                      <div className="rd-floor-somewhere3">
+                      <div className="rd-floor-somewhere4">
                         3rd Floor somewhere, Addis Ababa
                       </div>
-                      <div className="div18">0965325142</div>
-                      <div className="fyngmailcom3">fyn@gmail.com</div>
+                      <div className="div21">0965325142</div>
+                      <div className="fyngmailcom4">fyn@gmail.com</div>
                     </div>
                   </div>
                 </div>
@@ -38,13 +38,13 @@ const GroupComponent3 = () => {
                     <div className="testimonials4">Testimonials</div>
                     <div className="contact-group">
                       <div className="contact2">{`Contact     `}</div>
-                      <div className="gallery11">Gallery</div>
+                      <div className="gallery12">Gallery</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="frame-parent23">
+            <div className="frame-parent26">
               <img
                 className="frame-icon12"
                 loading="lazy"

@@ -43,7 +43,7 @@ const FrameComponent12 = ({
   }, [propWidth1, propMinWidth]);
 
   return (
-    <div className="frame-parent43" style={frameDiv2Style}>
+    <div className="frame-parent46" style={frameDiv2Style}>
       <div className="title-parent8" style={frameDiv3Style}>
         <div className="title27">{title}</div>
         {!forgot1 && (

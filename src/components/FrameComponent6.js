@@ -105,7 +105,7 @@ const FrameComponent6 = () => {
               If you want real marketing that works and effective implementation
               - mobile app's got you covered.
             </div>
-            <div className="frame-parent35">
+            <div className="frame-parent38">
               <div className="sol-d-wrapper">
                 <div className="sol-d">Sol D</div>
               </div>

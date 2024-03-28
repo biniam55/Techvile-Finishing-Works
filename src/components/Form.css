@@ -23,7 +23,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-6xl) 0 0;
+  padding: var(--padding-0) var(--padding-6xl) var(--padding-0) var(--padding-0);
   gap: var(--gap-base);
 }
 .email5 {
@@ -80,8 +80,8 @@
   padding: var(--padding-xs) var(--padding-smi);
   gap: var(--gap-8xs);
 }
-.frame-parent44,
-.frame-parent45,
+.frame-parent47,
+.frame-parent48,
 .input-text-frame {
   align-self: stretch;
   display: flex;
@@ -89,12 +89,12 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-parent44,
-.frame-parent45 {
+.frame-parent47,
+.frame-parent48 {
   flex-direction: column;
   gap: var(--gap-xs);
 }
-.frame-parent44 {
+.frame-parent47 {
   gap: var(--gap-5xl);
 }
 .login-now4 {
@@ -167,7 +167,9 @@
   display: inline-block;
   min-width: 47px;
 }
-.already-logged-in {
+.already-logged-in,
+.button-group,
+.form2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -177,13 +179,9 @@
 .button-group,
 .form2 {
   align-self: stretch;
-  display: flex;
   flex-direction: column;
   align-items: center;
-}
-.button-group {
-  justify-content: flex-start;
-  padding: 0;
+  padding: var(--padding-0) var(--padding-0);
   gap: var(--gap-5xl);
 }
 .form2 {

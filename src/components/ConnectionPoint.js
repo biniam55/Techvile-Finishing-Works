@@ -4,7 +4,7 @@ import "./ConnectionPoint.css";
 const ConnectionPoint = () => {
   return (
     <section className="connection-point">
-      <div className="frame-parent10">
+      <div className="frame-parent13">
         <div className="fyn-group">
           <h1 className="fyn1">FYN</h1>
           <div className="data-sorter">
@@ -14,9 +14,9 @@ const ConnectionPoint = () => {
                   <h1 className="home">HOME</h1>
                 </div>
                 <div className="signal-transmitter1">
-                  <h1 className="gallery5">GALLERY</h1>
+                  <h1 className="gallery6">GALLERY</h1>
                 </div>
-                <h1 className="service1">SERVICE</h1>
+                <h1 className="service2">SERVICE</h1>
                 <h1 className="testimonials">TESTIMONIALS</h1>
               </header>
             </div>
@@ -26,7 +26,7 @@ const ConnectionPoint = () => {
                   <div className="logic-visualizer" />
                   <div className="custom-component-parent">
                     <div className="custom-component" />
-                    <div className="gallery6">Gallery</div>
+                    <div className="gallery7">Gallery</div>
                   </div>
                 </div>
                 <div className="data-linker">
@@ -76,9 +76,9 @@ const ConnectionPoint = () => {
               propWidth="222px"
             />
           </div>
-          <div className="frame-wrapper2">
+          <div className="frame-wrapper5">
             <img
-              className="frame-child3"
+              className="frame-child7"
               loading="lazy"
               alt=""
               src="/group-316.svg"

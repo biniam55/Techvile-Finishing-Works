@@ -12,8 +12,10 @@ import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import MobileHome from "./pages/MobileHome";
 import MobileGallery from "./pages/MobileGallery";
-import Dashboard from "./pages/Dashboard1";
+import Dashboard1 from "./pages/Dashboard1";
 import MobileSignUp from "./pages/MobileSignUp";
+import MobileSignIn from "./pages/MobileSignIn";
+import Dashboard from "./pages/Dashboard2";
 
 function App() {
   const action = useNavigationType();
@@ -67,6 +69,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/mobile-sign-in":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/dashboard2":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -92,8 +102,10 @@ function App() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/mobile-home" element={<MobileHome />} />
       <Route path="/mobile-gallery" element={<MobileGallery />} />
-      <Route path="/dashboard1" element={<Dashboard />} />
+      <Route path="/dashboard1" element={<Dashboard1 />} />
       <Route path="/mobile-sign-up" element={<MobileSignUp />} />
+      <Route path="/mobile-sign-in" element={<MobileSignIn />} />
+      <Route path="/dashboard2" element={<Dashboard />} />
     </Routes>
   );
 }

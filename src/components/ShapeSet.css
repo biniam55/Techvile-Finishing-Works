@@ -22,7 +22,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-10xs);
+  padding: var(--padding-0) var(--padding-10xs);
 }
 .fill-the-form {
   margin: 0;
@@ -44,17 +44,18 @@
   justify-content: flex-start;
 }
 .arc-archive {
-  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-11xs);
 }
 .name-parent {
   gap: var(--gap-mid);
 }
-.frame-parent13 {
+.frame-parent16 {
   align-self: stretch;
   flex-direction: column;
   gap: var(--gap-base);
 }
-.frame-parent13,
+.frame-parent16,
 .icon-inventory,
 .path-plot,
 .video-viewport {
@@ -65,13 +66,13 @@
 .path-plot {
   align-self: stretch;
   flex-direction: column;
-  padding: 0 0 var(--padding-14xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-14xl);
   gap: var(--gap-6xl);
 }
 .icon-inventory,
 .video-viewport {
   flex-direction: row;
-  padding: 0 var(--padding-5xs);
+  padding: var(--padding-0) var(--padding-5xs);
 }
 .icon-inventory {
   margin: 0;
@@ -97,7 +98,7 @@
 .button-bank,
 .button-bank-parent,
 .contact-form-5,
-.shape-set {
+.shape-set1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -106,21 +107,21 @@
 .button-bank {
   width: 589px;
   flex-direction: column;
-  padding: var(--padding-13xl) 0 0;
+  padding: var(--padding-13xl) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   min-width: 589px;
 }
 .button-bank-parent,
-.shape-set {
+.shape-set1 {
   flex-direction: row;
 }
 .button-bank-parent {
   flex: 1;
   gap: var(--gap-31xl);
 }
-.shape-set {
+.shape-set1 {
   width: 1391px;
-  padding: 0 var(--padding-33xl) var(--padding-148xl-2);
+  padding: var(--padding-0) var(--padding-33xl) var(--padding-148xl-2);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--material-2-overline-size);
@@ -134,7 +135,7 @@
   .button-bank-parent {
     flex-wrap: wrap;
   }
-  .shape-set {
+  .shape-set1 {
     padding-left: var(--padding-7xl);
     padding-right: var(--padding-7xl);
     box-sizing: border-box;
@@ -162,7 +163,7 @@
   .button-bank-parent {
     gap: 50px 25px;
   }
-  .shape-set {
+  .shape-set1 {
     padding-bottom: var(--padding-90xl);
     box-sizing: border-box;
   }

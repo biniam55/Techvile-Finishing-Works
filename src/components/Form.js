@@ -8,8 +8,8 @@ const Form = () => {
         <div className="welcome-back2">Welcome back</div>
         <h3 className="title28">Create an account</h3>
       </div>
-      <div className="frame-parent44">
-        <div className="frame-parent45">
+      <div className="frame-parent47">
+        <div className="frame-parent48">
           <div className="email-frame">
             <div className="email5">Email</div>
           </div>
@@ -44,7 +44,7 @@ const Form = () => {
           <img
             className="icongoogle-original1"
             alt=""
-            src="/icongoogle--original.svg"
+            src="/icongoogle--original1.svg"
           />
           <div className="login-now5">Continue with Google</div>
         </button>

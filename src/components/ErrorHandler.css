@@ -110,7 +110,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
-  padding: var(--padding-12xs) 0 0;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   z-index: 1;
 }
@@ -234,7 +234,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
-  padding: var(--padding-12xs) 0 0;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   z-index: 1;
 }
@@ -359,7 +359,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
-  padding: var(--padding-12xs) 0 0;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   z-index: 1;
 }
@@ -484,7 +484,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
-  padding: var(--padding-12xs) 0 0;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   z-index: 1;
 }
@@ -609,7 +609,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
-  padding: var(--padding-12xs) 0 0;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   z-index: 1;
 }
@@ -734,7 +734,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
-  padding: var(--padding-12xs) 0 0;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   z-index: 1;
 }

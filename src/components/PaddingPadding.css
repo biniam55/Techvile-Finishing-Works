@@ -17,7 +17,7 @@
   position: relative;
   z-index: 1;
 }
-.frame-child12 {
+.frame-child16 {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,13 +33,13 @@
   min-width: 111px;
   z-index: 1;
 }
-.rectangle-parent6 {
+.rectangle-parent7 {
   height: 15px;
   flex: 1;
   position: relative;
   white-space: nowrap;
 }
-.frame-child13 {
+.frame-child17 {
   position: absolute;
   top: 0;
   left: 0;
@@ -55,13 +55,13 @@
   min-width: 60px;
   z-index: 1;
 }
-.rectangle-parent7 {
+.rectangle-parent8 {
   height: 15px;
   width: 70px;
   position: relative;
   white-space: nowrap;
 }
-.frame-child14 {
+.frame-child18 {
   position: absolute;
   top: 0;
   left: 0;
@@ -77,7 +77,7 @@
   min-width: 84px;
   z-index: 1;
 }
-.rectangle-parent8 {
+.rectangle-parent9 {
   height: 15px;
   width: 94px;
   position: relative;
@@ -135,7 +135,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-5xs) 0 0;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
 }
 .boolean-operator {
   height: 30px;
@@ -162,14 +162,14 @@
   width: 40px;
   flex-shrink: 0;
   flex-direction: column;
-  padding: var(--padding-5xs) 0 0;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
   color: var(--color-dimgray-200);
 }
 .controls-map-type1 {
   height: 29px;
   overflow-x: auto;
   flex-direction: row;
-  padding: 0 var(--padding-5xs);
+  padding: var(--padding-0) var(--padding-5xs);
   position: relative;
   gap: var(--gap-5xs-5);
   z-index: 1;
@@ -225,7 +225,7 @@
   align-self: stretch;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-17xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-17xl);
   position: relative;
   z-index: 1;
 }
@@ -256,7 +256,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-12xs) 0 0;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
   box-sizing: border-box;
   max-width: 100%;
   text-align: left;

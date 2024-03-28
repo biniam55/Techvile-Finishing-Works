@@ -40,7 +40,8 @@
 }
 .manage-post-wrapper {
   flex-direction: row;
-  padding: 0 0 0 var(--padding-12xs);
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    var(--padding-12xs);
 }
 .dashboard3 {
   width: 107px;
@@ -61,7 +62,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 0 0 var(--padding-5xs);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xs);
   box-sizing: border-box;
   gap: var(--gap-xl);
 }
@@ -174,10 +175,12 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-8xs) var(--padding-7xs) var(--padding-4xs);
+  padding: var(--padding-0) var(--padding-8xs) var(--padding-7xs)
+    var(--padding-4xs);
 }
 .label-description-wrapper {
-  padding: 0 var(--padding-8xs) 0 var(--padding-lg);
+  padding: var(--padding-0) var(--padding-8xs) var(--padding-0)
+    var(--padding-lg);
 }
 .upload-image-icon1 {
   align-self: stretch;
@@ -194,7 +197,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 1.8px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-11xs-8);
   box-sizing: border-box;
 }
 .label-upload-icon {
@@ -221,7 +224,7 @@
 .button-container {
   width: 197px;
   flex-direction: row;
-  padding: 0 var(--padding-10xl);
+  padding: var(--padding-0) var(--padding-10xl);
   box-sizing: border-box;
 }
 .frame-parent7,
@@ -236,7 +239,7 @@
 .posting-inner {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-12xs);
+  padding: var(--padding-0) var(--padding-12xs);
   box-sizing: border-box;
 }
 .login-now1 {
@@ -273,7 +276,7 @@
   overflow: hidden;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--padding-mini) var(--padding-lg) 87px;
+  padding: var(--padding-mini) var(--padding-lg) var(--padding-68xl);
   box-sizing: border-box;
   gap: var(--gap-23xl);
   letter-spacing: normal;

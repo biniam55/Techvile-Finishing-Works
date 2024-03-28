@@ -9,7 +9,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-31xl);
+  padding: var(--padding-0) var(--padding-31xl);
 }
 .fill-the-form1 {
   align-self: stretch;
@@ -98,7 +98,7 @@
 .external-interface {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-22xl);
+  padding: var(--padding-0) var(--padding-22xl);
 }
 .external-interface,
 .image-processor,
@@ -115,7 +115,8 @@
 .image-processor-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-sm) 0 var(--padding-base);
+  padding: var(--padding-0) var(--padding-sm) var(--padding-0)
+    var(--padding-base);
 }
 .graph-builder {
   margin: 0;
@@ -138,7 +139,7 @@
 .timer1 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-31xl) var(--padding-lgi);
+  padding: var(--padding-0) var(--padding-31xl) var(--padding-lgi);
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--color-black);

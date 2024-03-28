@@ -21,7 +21,7 @@ const FrameComponent5 = ({
   }, [propAlignSelf, propPosition, propTop, propLeft, propWidth]);
 
   return (
-    <div className="frame-parent33" style={frameDiv1Style}>
+    <div className="frame-parent36" style={frameDiv1Style}>
       <div className="title-parent7">
         <div className="title18">{title}</div>
         <div className="forgot5">Forgot？</div>

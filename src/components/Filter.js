@@ -5,7 +5,7 @@ const Filter = () => {
   return (
     <div className="filter">
       <div className="sort">
-        <div className="search">
+        <div className="search1">
           <h1 className="our-gallery">Our Gallery</h1>
         </div>
         <div className="combiner">
@@ -65,8 +65,8 @@ const Filter = () => {
                 </div>
               </div>
               <div className="decision-maker-inner">
-                <div className="rectangle-container">
-                  <div className="frame-child4" />
+                <div className="group-div">
+                  <div className="frame-child8" />
                   <div className="view-gallery">View Gallery</div>
                 </div>
               </div>

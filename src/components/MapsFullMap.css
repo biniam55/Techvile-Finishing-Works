@@ -133,7 +133,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-5xs) 0 0;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
 }
 .pen-palette,
@@ -164,14 +164,14 @@
   width: 40px;
   flex-shrink: 0;
   flex-direction: column;
-  padding: var(--padding-5xs) 0 0;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
   color: var(--color-dimgray-200);
 }
 .controls-map-type {
   height: 29px;
   overflow-x: auto;
   flex-direction: row;
-  padding: 0 var(--padding-5xs);
+  padding: var(--padding-0) var(--padding-5xs);
   position: relative;
   gap: var(--gap-5xs-5);
   z-index: 1;

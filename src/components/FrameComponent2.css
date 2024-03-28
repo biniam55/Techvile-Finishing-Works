@@ -1,9 +1,9 @@
-.div5,
+.div8,
 .pictures-child {
   align-self: stretch;
   width: 120px;
 }
-.div5 {
+.div8 {
   position: relative;
   background-color: var(--color-gainsboro);
   overflow: hidden;
@@ -19,7 +19,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-101xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-101xl);
   box-sizing: border-box;
   background-image: url(/public/pictures@3x.png);
   background-size: cover;
@@ -54,7 +54,8 @@
 .background-inner {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
 .background,
 .pictures-icon {
@@ -70,7 +71,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
 }
@@ -86,7 +87,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.div7 {
+.div10 {
   align-self: stretch;
   width: 120px;
   position: relative;
@@ -106,7 +107,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-88xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-88xl);
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -127,7 +128,7 @@
   gap: var(--gap-9xs);
 }
 .background-parent,
-.div6,
+.div9,
 .inner,
 .title-group {
   display: flex;
@@ -137,20 +138,21 @@
 .inner {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
 .background-parent,
-.div6 {
+.div9 {
   flex-direction: column;
   max-width: 100%;
 }
-.div6 {
+.div9 {
   align-self: stretch;
   height: 322px;
   border-radius: var(--br-xs);
   overflow: hidden;
   flex-shrink: 0;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-7xl);
 }
@@ -180,7 +182,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-101xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-101xl);
   box-sizing: border-box;
   background-image: url(/public/pictures2@3x.png);
   background-size: cover;
@@ -217,7 +219,8 @@
 .pictures1 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
 .pictures1 {
   height: 333px;
@@ -225,7 +228,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
   max-width: 100%;
@@ -251,7 +254,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-101xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-101xl);
   box-sizing: border-box;
   background-image: url(/public/pictures3@3x.png);
   background-size: cover;
@@ -288,7 +291,8 @@
 .home-gallery-inner {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
 .home-gallery,
 .subtitle {
@@ -301,7 +305,7 @@
   border-radius: var(--br-xs);
   overflow: hidden;
   flex-shrink: 0;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
 }
@@ -310,12 +314,12 @@
   gap: var(--gap-13xl);
   min-width: 264px;
 }
-.div9,
+.div12,
 .pictures-child2 {
   align-self: stretch;
   width: 120px;
 }
-.div9 {
+.div12 {
   position: relative;
   background-color: var(--color-gainsboro);
   overflow: hidden;
@@ -331,7 +335,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-101xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-101xl);
   box-sizing: border-box;
   background-image: url(/public/pictures4@3x.png);
   background-size: cover;
@@ -353,7 +357,7 @@
   color: var(--color-darkslategray-100);
 }
 .child,
-.div8,
+.div11,
 .title-parent2 {
   display: flex;
   align-items: flex-start;
@@ -365,28 +369,29 @@
   gap: var(--gap-9xs);
 }
 .child,
-.div8 {
+.div11 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
-.div8 {
+.div11 {
   height: 333px;
   border-radius: var(--br-xs);
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
   max-width: 100%;
 }
-.div11,
+.div14,
 .pictures-child3 {
   align-self: stretch;
   width: 120px;
 }
-.div11 {
+.div14 {
   position: relative;
   background-color: var(--color-gainsboro);
   overflow: hidden;
@@ -402,7 +407,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-101xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-101xl);
   box-sizing: border-box;
   background-image: url(/public/pictures5@3x.png);
   background-size: cover;
@@ -431,7 +436,7 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
-.div10,
+.div13,
 .inner1 {
   align-self: stretch;
   justify-content: flex-start;
@@ -440,20 +445,21 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-base) 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-base) var(--padding-0)
+    var(--padding-5xl);
 }
-.div10 {
+.div13 {
   height: 333px;
   border-radius: var(--br-xs);
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  padding: 0 0 var(--padding-5xl);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
 }
-.div10,
-.frame-parent15,
+.div13,
+.frame-parent18,
 .gallery-child,
 .subtitle1 {
   display: flex;
@@ -467,19 +473,19 @@
   gap: var(--gap-13xl);
   min-width: 264px;
 }
-.frame-parent15,
+.frame-parent18,
 .gallery-child {
   flex-direction: row;
   justify-content: center;
 }
-.frame-parent15 {
+.frame-parent18 {
   width: 1120px;
   flex-wrap: wrap;
   gap: var(--gap-13xl);
 }
 .gallery-child {
   align-self: stretch;
-  padding: 0 var(--padding-xl);
+  padding: var(--padding-0) var(--padding-xl);
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -488,7 +494,7 @@
   font-family: var(--font-source-code-pro);
 }
 @media screen and (max-width: 750px) {
-  .frame-parent15 {
+  .frame-parent18 {
     gap: var(--gap-base);
   }
 }

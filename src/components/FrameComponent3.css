@@ -21,9 +21,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-7xl) 0 0;
+  padding: var(--padding-0) var(--padding-7xl) var(--padding-0) var(--padding-0);
 }
-.gallery8 {
+.gallery9 {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -39,9 +39,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-16xl) 0 0;
+  padding: var(--padding-0) var(--padding-16xl) var(--padding-0)
+    var(--padding-0);
 }
-.service2,
+.service3,
 .testimonials2 {
   margin: 0;
   position: relative;
@@ -51,7 +52,7 @@
   font-weight: 400;
   font-family: inherit;
 }
-.service2 {
+.service3 {
   display: inline-block;
   min-width: 92px;
 }
@@ -88,14 +89,14 @@
   overflow: hidden;
   object-fit: cover;
 }
-.gallery9 {
+.gallery10 {
   margin-block-start: 0;
   margin-block-end: 20px;
 }
-.we-have-solutions3 {
+.we-have-solutions4 {
   margin: 0;
 }
-.gallery-we-have-container4 {
+.gallery-we-have-container5 {
   margin: 0 !important;
   height: 87px;
   width: 898px;
@@ -118,13 +119,13 @@
   position: relative;
 }
 .container,
-.frame-parent14,
+.frame-parent17,
 .gallery-inner {
   align-self: stretch;
   display: flex;
   max-width: 100%;
 }
-.frame-parent14 {
+.frame-parent17 {
   width: 1130px;
   flex-direction: column;
   align-items: flex-end;
@@ -136,7 +137,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-21xl) var(--padding-11xl);
+  padding: var(--padding-0) var(--padding-xl) var(--padding-21xl)
+    var(--padding-11xl);
   box-sizing: border-box;
   text-align: center;
   font-size: var(--font-size-17xl);
@@ -144,7 +146,7 @@
   font-family: var(--material-2-secondary-text);
 }
 @media screen and (max-width: 1025px) {
-  .gallery-we-have-container4 {
+  .gallery-we-have-container5 {
     font-size: var(--font-size-10xl);
     line-height: 33px;
   }
@@ -153,12 +155,12 @@
   .frame-nav {
     display: none;
   }
-  .frame-parent14 {
+  .frame-parent17 {
     gap: 25px 50px;
   }
 }
 @media screen and (max-width: 450px) {
-  .gallery-we-have-container4 {
+  .gallery-we-have-container5 {
     font-size: var(--font-size-3xl);
     line-height: 25px;
   }

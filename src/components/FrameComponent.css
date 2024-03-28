@@ -1,4 +1,4 @@
-.frame-child2 {
+.frame-child6 {
   height: 79px;
   width: 1440px;
   position: relative;
@@ -24,7 +24,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-smi-3) var(--padding-10xs) 0 0;
+  padding: var(--padding-smi-3) var(--padding-10xs) var(--padding-0)
+    var(--padding-0);
 }
 .data-comparison-icon {
   width: 24px;
@@ -38,7 +39,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-sm-4) var(--padding-smi) 0 0;
+  padding: var(--padding-sm-4) var(--padding-smi) var(--padding-0)
+    var(--padding-0);
   box-sizing: border-box;
 }
 .frame-icon5 {
@@ -49,7 +51,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.vector-icon1 {
+.vector-icon2 {
   height: 26.8px;
   width: 24px;
   position: relative;
@@ -69,7 +71,7 @@
 }
 .function-call {
   flex-direction: column;
-  padding: var(--padding-sm-3) 0 0;
+  padding: var(--padding-sm-3) var(--padding-0) var(--padding-0);
 }
 .output-formatter {
   flex: 1;
@@ -82,7 +84,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-5xs-3);
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xs-3);
   box-sizing: border-box;
 }
 .book-your-free {
@@ -101,7 +103,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-6xs-5) 0 0;
+  padding: var(--padding-6xs-5) var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   min-width: 220px;
   max-width: 100%;
@@ -113,7 +115,7 @@
   z-index: 1;
 }
 .data-filter,
-.rectangle-group {
+.rectangle-container {
   display: flex;
   flex-direction: row;
   max-width: 100%;
@@ -125,7 +127,7 @@
   gap: var(--gap-39xl);
   font-size: var(--font-size-xl);
 }
-.rectangle-group {
+.rectangle-container {
   align-self: stretch;
   background-color: var(--color-gray-300);
   align-items: flex-end;
@@ -140,12 +142,12 @@
   font-family: var(--font-lora);
 }
 @media screen and (max-width: 1200px) {
-  .rectangle-group {
+  .rectangle-container {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 750px) {
-  .rectangle-group {
+  .rectangle-container {
     padding-left: var(--padding-61xl);
     padding-right: var(--padding-65xl);
     box-sizing: border-box;
@@ -164,7 +166,7 @@
     flex-wrap: wrap;
     gap: 58px 29px;
   }
-  .rectangle-group {
+  .rectangle-container {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;

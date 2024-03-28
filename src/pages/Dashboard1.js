@@ -3,7 +3,7 @@ import AllPostsContainer from "../components/AllPostsContainer";
 import FrameComponent10 from "../components/FrameComponent10";
 import "./Dashboard1.css";
 
-const Dashboard = () => {
+const Dashboard1 = () => {
   return (
     <div className="dashboard1">
       <header className="dashboard-inner">
@@ -49,4 +49,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Dashboard1;

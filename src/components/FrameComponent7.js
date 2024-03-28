@@ -7,8 +7,8 @@ const FrameComponent7 = () => {
       <div className="global-scope-parent">
         <GlobalScope
           title="Diverse Portfolio"
-          group304="/group-304.svg"
-          group305="/group-304.svg"
+          group304="/group-3041.svg"
+          group305="/group-3041.svg"
         />
         <div className="global-scope-group">
           <GlobalScope
@@ -22,10 +22,10 @@ const FrameComponent7 = () => {
             group305="/group-304-2.svg"
           />
         </div>
-        <div className="frame-wrapper11">
+        <div className="frame-wrapper14">
           <button className="group-button">
-            <div className="frame-child11" />
-            <div className="gallery15">Gallery</div>
+            <div className="frame-child15" />
+            <div className="gallery16">Gallery</div>
           </button>
         </div>
       </div>
