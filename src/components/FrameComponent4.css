@@ -1,0 +1,74 @@
+.login-now1 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 128px;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-midnightblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.icongoogle-original {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.login-now2 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.button3 {
+  align-self: stretch;
+  height: 48px;
+  border-radius: var(--br-5xs);
+  background-color: var(--container-primary-low);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  color: var(--foreground-primary);
+}
+.already-have-an,
+.log-in {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.log-in {
+  color: var(--foreground-primary);
+  display: inline-block;
+  min-width: 47px;
+}
+.already-have-an-account-parent,
+.button-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--foreground-low);
+}
+.button-parent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--material-2-title-size);
+  color: var(--foreground-oncolor);
+  font-family: var(--body-large-regular);
+}

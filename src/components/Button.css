@@ -1,0 +1,21 @@
+.submit {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  min-width: 55px;
+}
+.button1 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-17xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--material-2-title-size);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

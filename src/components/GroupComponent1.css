@@ -1,0 +1,114 @@
+.frame-child2 {
+  height: 706px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-midnightblue);
+  display: none;
+  max-width: 100%;
+}
+.what-our-clients {
+  margin: 0;
+  width: 221px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.subgraph-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  color: var(--color-black);
+}
+.input-socket,
+.output-socket {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.output-socket {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-59xl);
+  max-width: 100%;
+}
+.input-socket {
+  flex: 1;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  min-width: 225px;
+}
+.frame-parent9,
+.input-socket,
+.rectangle-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent9 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-66xl);
+  min-width: 224px;
+}
+.rectangle-container {
+  align-self: stretch;
+  background-color: var(--color-midnightblue);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-43xl) var(--padding-282xl-9) var(--padding-26xl)
+    var(--padding-316xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-92xl-2);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-container {
+    gap: var(--gap-37xl);
+    padding-left: var(--padding-148xl);
+    padding-right: var(--padding-132xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-container {
+    gap: var(--gap-9xl);
+    padding: var(--padding-21xl) var(--padding-56xl) var(--padding-10xl)
+      var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .what-our-clients {
+    font-size: var(--material-2-title-size);
+    line-height: 26px;
+  }
+  .output-socket {
+    gap: 39px 78px;
+  }
+  .frame-parent9 {
+    gap: 42px 85px;
+  }
+  .rectangle-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
