@@ -22,7 +22,7 @@ const ShapeSet = () => {
                     Fill the form so that our team can reach out to you
                   </h2>
                 </div>
-                <div className="frame-parent10">
+                <div className="frame-parent13">
                   <div className="name-parent">
                     <Name1 />
                     <Email />

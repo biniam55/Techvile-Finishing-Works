@@ -49,11 +49,11 @@
   justify-content: flex-end;
   padding: 0 var(--padding-base) 0 var(--padding-5xl);
 }
-.div10,
-.div12 {
+.div12,
+.div14 {
   overflow: hidden;
 }
-.div10 {
+.div12 {
   height: 322px;
   border-radius: var(--br-xs);
   display: flex;
@@ -65,7 +65,7 @@
   gap: var(--gap-7xl);
   max-width: 100%;
 }
-.div12 {
+.div14 {
   align-self: stretch;
   width: 120px;
   position: relative;
@@ -115,13 +115,13 @@
   justify-content: flex-end;
   padding: 0 var(--padding-base) 0 var(--padding-5xl);
 }
-.div11,
+.div13,
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.div11 {
+.div13 {
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-xs);
@@ -137,7 +137,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.div14 {
+.div16 {
   align-self: stretch;
   width: 120px;
   position: relative;
@@ -188,7 +188,7 @@
   justify-content: flex-end;
   padding: 0 var(--padding-base) 0 var(--padding-5xl);
 }
-.div13 {
+.div15 {
   height: 322px;
   border-radius: var(--br-xs);
   overflow: hidden;

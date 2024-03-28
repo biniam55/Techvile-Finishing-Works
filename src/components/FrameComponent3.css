@@ -1,4 +1,4 @@
-.fyn1,
+.fyn2,
 .home1 {
   margin: 0;
   position: relative;
@@ -9,7 +9,7 @@
   font-family: inherit;
   display: inline-block;
 }
-.fyn1 {
+.fyn2 {
   width: 69.6px;
   flex-shrink: 0;
 }
@@ -23,7 +23,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-7xl) 0 0;
 }
-.gallery7 {
+.gallery8 {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -41,7 +41,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-16xl) 0 0;
 }
-.service1,
+.service2,
 .testimonials2 {
   margin: 0;
   position: relative;
@@ -51,7 +51,7 @@
   font-weight: 400;
   font-family: inherit;
 }
-.service1 {
+.service2 {
   display: inline-block;
   min-width: 92px;
 }
@@ -59,7 +59,7 @@
   flex: 1;
 }
 .frame-nav,
-.fyn-group {
+.fyn-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -75,7 +75,7 @@
   justify-content: flex-start;
   gap: var(--gap-8xl);
 }
-.fyn-group {
+.fyn-container {
   align-self: stretch;
   justify-content: space-between;
   gap: var(--gap-xl);
@@ -88,14 +88,14 @@
   overflow: hidden;
   object-fit: cover;
 }
-.gallery8 {
+.gallery9 {
   margin-block-start: 0;
   margin-block-end: 20px;
 }
-.we-have-solutions2 {
+.we-have-solutions3 {
   margin: 0;
 }
-.gallery-we-have-container3 {
+.gallery-we-have-container4 {
   margin: 0 !important;
   height: 87px;
   width: 898px;
@@ -118,13 +118,13 @@
   position: relative;
 }
 .container,
-.frame-parent11,
+.frame-parent14,
 .gallery-inner {
   align-self: stretch;
   display: flex;
   max-width: 100%;
 }
-.frame-parent11 {
+.frame-parent14 {
   width: 1130px;
   flex-direction: column;
   align-items: flex-end;
@@ -144,7 +144,7 @@
   font-family: var(--material-2-secondary-text);
 }
 @media screen and (max-width: 1025px) {
-  .gallery-we-have-container3 {
+  .gallery-we-have-container4 {
     font-size: var(--font-size-10xl);
     line-height: 33px;
   }
@@ -153,12 +153,12 @@
   .frame-nav {
     display: none;
   }
-  .frame-parent11 {
+  .frame-parent14 {
     gap: 25px 50px;
   }
 }
 @media screen and (max-width: 450px) {
-  .gallery-we-have-container3 {
+  .gallery-we-have-container4 {
     font-size: var(--font-size-3xl);
     line-height: 25px;
   }

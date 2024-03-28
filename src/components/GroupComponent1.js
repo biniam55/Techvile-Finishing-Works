@@ -3,8 +3,8 @@ import "./GroupComponent1.css";
 
 const GroupComponent1 = () => {
   return (
-    <div className="rectangle-container">
-      <div className="frame-child2" />
+    <div className="group-div">
+      <div className="frame-child5" />
       <div className="input-socket">
         <div className="output-socket">
           <h1 className="what-our-clients">What Our Clients Say</h1>
@@ -22,7 +22,7 @@ const GroupComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="frame-parent9">
+      <div className="frame-parent12">
         <Subgraph
           star2="/star-2.svg"
           star3="/star-3.svg"

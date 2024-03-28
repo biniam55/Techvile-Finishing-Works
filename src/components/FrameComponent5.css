@@ -1,4 +1,4 @@
-.forgot3,
+.forgot5,
 .title18 {
   position: relative;
   line-height: 100%;
@@ -9,7 +9,7 @@
   display: inline-block;
   max-width: 100%;
 }
-.forgot3 {
+.forgot5 {
   width: 68px;
   color: var(--foreground-primary);
   text-align: right;
@@ -23,34 +23,34 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.context3 {
+.context4 {
   flex: 1;
   position: relative;
   line-height: 100%;
   display: inline-block;
   max-width: 100%;
 }
-.iconeye4 {
+.iconeye5 {
   height: 24px;
   width: 24px;
   position: relative;
 }
-.iconeye-wrapper2 {
+.iconeye-wrapper3 {
   height: 24px;
   display: none;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
 }
-.frame-parent30,
-.input-text4,
-.input2 {
+.frame-parent33,
+.input-text5,
+.input3 {
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.input-text4 {
+.input-text5 {
   border-radius: var(--br-5xs);
   border: 1px solid var(--outline-default);
   box-sizing: border-box;
@@ -59,14 +59,14 @@
   padding: var(--padding-xs) var(--padding-mini);
   gap: var(--gap-8xs);
 }
-.frame-parent30,
-.input2 {
+.frame-parent33,
+.input3 {
   flex-direction: column;
   align-items: flex-start;
   font-size: var(--material-2-secondary-text-size);
   color: var(--foreground-low);
 }
-.frame-parent30 {
+.frame-parent33 {
   gap: var(--gap-xs);
   text-align: left;
   font-size: var(--material-2-title-size);

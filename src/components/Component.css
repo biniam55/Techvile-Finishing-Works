@@ -1,4 +1,4 @@
-.image-icon1 {
+.image-icon5 {
   align-self: stretch;
   height: 198px;
   position: relative;
@@ -31,7 +31,7 @@
   flex-direction: column;
   gap: var(--gap-7xs);
 }
-.div1,
+.div3,
 .icon-library,
 .shape-maker {
   display: flex;
@@ -43,7 +43,7 @@
   flex-direction: row;
   padding: 0 var(--padding-5xl);
 }
-.div1 {
+.div3 {
   height: 325px;
   width: 304px;
   border-radius: var(--br-xs);

@@ -21,8 +21,8 @@ const Component = ({
   }, [propWidth]);
 
   return (
-    <div className="div1" style={divStyle}>
-      <img className="image-icon1" loading="lazy" alt="" src={image} />
+    <div className="div3" style={divStyle}>
+      <img className="image-icon5" loading="lazy" alt="" src={image} />
       <div className="icon-library">
         <div className="shape-maker">
           <h2 className="painting" style={paintingStyle}>

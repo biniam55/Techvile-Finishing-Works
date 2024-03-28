@@ -1,9 +1,9 @@
-.div3,
+.div5,
 .pictures-child {
   align-self: stretch;
   width: 120px;
 }
-.div3 {
+.div5 {
   position: relative;
   background-color: var(--color-gainsboro);
   overflow: hidden;
@@ -86,7 +86,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.div5 {
+.div7 {
   align-self: stretch;
   width: 120px;
   position: relative;
@@ -127,7 +127,7 @@
   gap: var(--gap-9xs);
 }
 .background-parent,
-.div4,
+.div6,
 .inner,
 .title-group {
   display: flex;
@@ -140,11 +140,11 @@
   padding: 0 var(--padding-base) 0 var(--padding-5xl);
 }
 .background-parent,
-.div4 {
+.div6 {
   flex-direction: column;
   max-width: 100%;
 }
-.div4 {
+.div6 {
   align-self: stretch;
   height: 322px;
   border-radius: var(--br-xs);
@@ -310,12 +310,12 @@
   gap: var(--gap-13xl);
   min-width: 264px;
 }
-.div7,
+.div9,
 .pictures-child2 {
   align-self: stretch;
   width: 120px;
 }
-.div7 {
+.div9 {
   position: relative;
   background-color: var(--color-gainsboro);
   overflow: hidden;
@@ -353,7 +353,7 @@
   color: var(--color-darkslategray-100);
 }
 .child,
-.div6,
+.div8,
 .title-parent2 {
   display: flex;
   align-items: flex-start;
@@ -365,12 +365,12 @@
   gap: var(--gap-9xs);
 }
 .child,
-.div6 {
+.div8 {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-base) 0 var(--padding-5xl);
 }
-.div6 {
+.div8 {
   height: 333px;
   border-radius: var(--br-xs);
   overflow: hidden;
@@ -381,12 +381,12 @@
   gap: var(--gap-5xl);
   max-width: 100%;
 }
-.div9,
+.div11,
 .pictures-child3 {
   align-self: stretch;
   width: 120px;
 }
-.div9 {
+.div11 {
   position: relative;
   background-color: var(--color-gainsboro);
   overflow: hidden;
@@ -431,7 +431,7 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
-.div8,
+.div10,
 .inner1 {
   align-self: stretch;
   justify-content: flex-start;
@@ -442,7 +442,7 @@
   align-items: flex-start;
   padding: 0 var(--padding-base) 0 var(--padding-5xl);
 }
-.div8 {
+.div10 {
   height: 333px;
   border-radius: var(--br-xs);
   overflow: hidden;
@@ -452,8 +452,8 @@
   box-sizing: border-box;
   gap: var(--gap-5xl);
 }
-.div8,
-.frame-parent12,
+.div10,
+.frame-parent15,
 .gallery-child,
 .subtitle1 {
   display: flex;
@@ -467,12 +467,12 @@
   gap: var(--gap-13xl);
   min-width: 264px;
 }
-.frame-parent12,
+.frame-parent15,
 .gallery-child {
   flex-direction: row;
   justify-content: center;
 }
-.frame-parent12 {
+.frame-parent15 {
   width: 1120px;
   flex-wrap: wrap;
   gap: var(--gap-13xl);
@@ -488,7 +488,7 @@
   font-family: var(--font-source-code-pro);
 }
 @media screen and (max-width: 750px) {
-  .frame-parent12 {
+  .frame-parent15 {
     gap: var(--gap-base);
   }
 }

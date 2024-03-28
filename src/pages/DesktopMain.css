@@ -80,7 +80,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 22px;
+  gap: var(--gap-3xl);
   letter-spacing: normal;
   text-align: left;
   font-size: var(--font-size-lg);

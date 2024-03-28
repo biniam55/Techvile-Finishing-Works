@@ -4,11 +4,11 @@ const SideMenu1 = () => {
   return (
     <div className="side-menu">
       <div className="side-menu-child" />
-      <div className="frame-parent21">
+      <div className="frame-parent24">
         <div className="setting-1-wrapper">
           <img className="setting-1-icon" alt="" src="/setting-1.svg" />
         </div>
-        <h2 className="dashboard1">Dashboard</h2>
+        <h2 className="dashboard5">Dashboard</h2>
         <div className="v01-wrapper">
           <div className="v01">v.01</div>
         </div>
@@ -21,28 +21,28 @@ const SideMenu1 = () => {
             src="/icon--24--outline--keysquare.svg"
           />
           <div className="dashboard-wrapper">
-            <div className="dashboard2">Dashboard</div>
+            <div className="dashboard6">Dashboard</div>
           </div>
         </div>
       </div>
-      <div className="frame-parent22">
-        <div className="group-div">
-          <div className="frame-child3" />
-          <img className="frame-icon12" alt="" src="/frame3.svg" />
+      <div className="frame-parent25">
+        <div className="rectangle-parent4">
+          <div className="frame-child6" />
+          <img className="frame-icon15" alt="" src="/frame3.svg" />
           <div className="gallery-container">
-            <div className="gallery11">Gallery</div>
+            <div className="gallery12">Gallery</div>
           </div>
         </div>
-        <div className="frame-wrapper5">
-          <div className="frame-parent23">
-            <img className="frame-icon13" alt="" src="/frame3.svg" />
+        <div className="frame-wrapper6">
+          <div className="frame-parent26">
+            <img className="frame-icon16" alt="" src="/frame3.svg" />
             <div className="gallery-frame">
-              <div className="gallery12">Gallery</div>
+              <div className="gallery13">Gallery</div>
             </div>
           </div>
         </div>
       </div>
-      <div className="frame-parent24">
+      <div className="frame-parent27">
         <div className="ellipse-parent">
           <img
             className="ellipse-icon"
@@ -50,8 +50,8 @@ const SideMenu1 = () => {
             alt=""
             src="/ellipse-8@2x.png"
           />
-          <div className="frame-wrapper6">
-            <div className="frame-parent25">
+          <div className="frame-wrapper7">
+            <div className="frame-parent28">
               <div className="abebe-wrapper">
                 <div className="abebe">Abebe</div>
               </div>

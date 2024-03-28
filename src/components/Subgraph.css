@@ -65,7 +65,7 @@
   flex-shrink: 0;
   min-height: 22px;
 }
-.frame-parent8 {
+.frame-parent11 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -113,7 +113,7 @@
     font-size: var(--material-2-title-size);
     line-height: 24px;
   }
-  .frame-parent8 {
+  .frame-parent11 {
     flex-wrap: wrap;
   }
   .subgraph {

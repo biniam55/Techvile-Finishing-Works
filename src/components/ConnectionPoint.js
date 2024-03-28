@@ -4,9 +4,9 @@ import "./ConnectionPoint.css";
 const ConnectionPoint = () => {
   return (
     <section className="connection-point">
-      <div className="frame-parent7">
-        <div className="fyn-parent">
-          <h1 className="fyn">FYN</h1>
+      <div className="frame-parent10">
+        <div className="fyn-group">
+          <h1 className="fyn1">FYN</h1>
           <div className="data-sorter">
             <div className="logic-operator">
               <header className="signal-receiver">
@@ -14,9 +14,9 @@ const ConnectionPoint = () => {
                   <h1 className="home">HOME</h1>
                 </div>
                 <div className="signal-transmitter1">
-                  <h1 className="gallery4">GALLERY</h1>
+                  <h1 className="gallery5">GALLERY</h1>
                 </div>
-                <h1 className="service">SERVICE</h1>
+                <h1 className="service1">SERVICE</h1>
                 <h1 className="testimonials">TESTIMONIALS</h1>
               </header>
             </div>
@@ -26,7 +26,7 @@ const ConnectionPoint = () => {
                   <div className="logic-visualizer" />
                   <div className="custom-component-parent">
                     <div className="custom-component" />
-                    <div className="gallery5">Gallery</div>
+                    <div className="gallery6">Gallery</div>
                   </div>
                 </div>
                 <div className="data-linker">
@@ -52,15 +52,15 @@ const ConnectionPoint = () => {
             <div className="rotation-control">
               <div className="alignment-tool">
                 <img
-                  className="image-icon2"
+                  className="image-icon6"
                   loading="lazy"
                   alt=""
                   src="/image-2@2x.png"
                 />
                 <div className="layer-organizer-wrapper">
                   <div className="layer-organizer">
-                    <h2 className="marble-and-granite">marble and granite</h2>
-                    <h3 className="exquisite-marble-and">
+                    <h2 className="marble-and-granite1">marble and granite</h2>
+                    <h3 className="exquisite-marble-and1">
                       Exquisite marble and granite craftsmanship, elevating
                       spaces with timeless beauty.
                     </h3>
@@ -76,9 +76,9 @@ const ConnectionPoint = () => {
               propWidth="222px"
             />
           </div>
-          <div className="frame-wrapper1">
+          <div className="frame-wrapper2">
             <img
-              className="group-icon"
+              className="frame-child3"
               loading="lazy"
               alt=""
               src="/group-316.svg"

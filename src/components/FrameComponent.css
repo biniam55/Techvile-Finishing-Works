@@ -1,4 +1,4 @@
-.rectangle-div {
+.frame-child2 {
   height: 79px;
   width: 1440px;
   position: relative;
@@ -41,20 +41,19 @@
   padding: var(--padding-sm-4) var(--padding-smi) 0 0;
   box-sizing: border-box;
 }
-.frame-icon2,
-.vector-icon {
-  position: relative;
-  z-index: 1;
-}
-.frame-icon2 {
+.frame-icon5 {
   height: 34px;
   width: 39px;
+  position: relative;
   overflow: hidden;
   flex-shrink: 0;
+  z-index: 1;
 }
-.vector-icon {
+.vector-icon1 {
   height: 26.8px;
   width: 24px;
+  position: relative;
+  z-index: 1;
 }
 .repeater {
   height: 34px;
@@ -114,7 +113,7 @@
   z-index: 1;
 }
 .data-filter,
-.rectangle-parent {
+.rectangle-group {
   display: flex;
   flex-direction: row;
   max-width: 100%;
@@ -126,7 +125,7 @@
   gap: var(--gap-39xl);
   font-size: var(--font-size-xl);
 }
-.rectangle-parent {
+.rectangle-group {
   align-self: stretch;
   background-color: var(--color-gray-300);
   align-items: flex-end;
@@ -141,12 +140,12 @@
   font-family: var(--font-lora);
 }
 @media screen and (max-width: 1200px) {
-  .rectangle-parent {
+  .rectangle-group {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 750px) {
-  .rectangle-parent {
+  .rectangle-group {
     padding-left: var(--padding-61xl);
     padding-right: var(--padding-65xl);
     box-sizing: border-box;
@@ -165,7 +164,7 @@
     flex-wrap: wrap;
     gap: 58px 29px;
   }
-  .rectangle-parent {
+  .rectangle-group {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;

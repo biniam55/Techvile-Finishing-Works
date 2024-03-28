@@ -4,7 +4,7 @@ const FrameComponent1 = () => {
   return (
     <section className="frame-section">
       <div className="parent">
-        <div className="div10">
+        <div className="div12">
           <div className="pictures6">
             <div className="media-assets" />
           </div>
@@ -18,9 +18,9 @@ const FrameComponent1 = () => {
           </div>
         </div>
         <div className="wrapper">
-          <div className="div11">
+          <div className="div13">
             <div className="pictures7">
-              <div className="div12" />
+              <div className="div14" />
             </div>
             <div className="inner3">
               <div className="title-parent5">
@@ -32,9 +32,9 @@ const FrameComponent1 = () => {
             </div>
           </div>
         </div>
-        <div className="div13">
+        <div className="div15">
           <div className="pictures8">
-            <div className="div14" />
+            <div className="div16" />
           </div>
           <div className="inner4">
             <div className="title-parent6">

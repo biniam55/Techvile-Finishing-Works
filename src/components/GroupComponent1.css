@@ -1,4 +1,4 @@
-.frame-child2 {
+.frame-child5 {
   height: 706px;
   width: 1440px;
   position: relative;
@@ -50,21 +50,21 @@
   box-sizing: border-box;
   min-width: 225px;
 }
-.frame-parent9,
-.input-socket,
-.rectangle-container {
+.frame-parent12,
+.group-div,
+.input-socket {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.frame-parent9 {
+.frame-parent12 {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-66xl);
   min-width: 224px;
 }
-.rectangle-container {
+.group-div {
   align-self: stretch;
   background-color: var(--color-midnightblue);
   flex-direction: row;
@@ -80,7 +80,7 @@
   font-family: var(--font-inter);
 }
 @media screen and (max-width: 1200px) {
-  .rectangle-container {
+  .group-div {
     gap: var(--gap-37xl);
     padding-left: var(--padding-148xl);
     padding-right: var(--padding-132xl);
@@ -88,7 +88,7 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .rectangle-container {
+  .group-div {
     gap: var(--gap-9xl);
     padding: var(--padding-21xl) var(--padding-56xl) var(--padding-10xl)
       var(--padding-64xl);
@@ -103,10 +103,10 @@
   .output-socket {
     gap: 39px 78px;
   }
-  .frame-parent9 {
+  .frame-parent12 {
     gap: 42px 85px;
   }
-  .rectangle-container {
+  .group-div {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;

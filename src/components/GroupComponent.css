@@ -13,7 +13,7 @@
   height: 1.1px;
   background-color: var(--color-gray-600);
 }
-.about-us {
+.about-us1 {
   margin: 0;
   width: 133.2px;
   height: 41.8px;
@@ -26,10 +26,10 @@
   flex-shrink: 0;
   z-index: 2;
 }
-.crafting-excellence-through {
+.crafting-excellence-through1 {
   margin: 0;
 }
-.crafting-excellence-through-container {
+.crafting-excellence-through-container1 {
   margin: 0;
   align-self: stretch;
   height: 184.8px;
@@ -52,15 +52,15 @@
   min-width: 265px;
   max-width: 100%;
 }
-.contact-info,
-.rd-floor-somewhere {
+.contact-info1,
+.rd-floor-somewhere1 {
   margin: 0;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
   z-index: 2;
 }
-.contact-info {
+.contact-info1 {
   width: 181.2px;
   height: 41.8px;
   position: relative;
@@ -68,13 +68,13 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.rd-floor-somewhere {
+.rd-floor-somewhere1 {
   align-self: stretch;
   white-space: pre-wrap;
 }
-.div2,
-.fyngmailcom,
-.rd-floor-somewhere {
+.div4,
+.fyngmailcom1,
+.rd-floor-somewhere1 {
   height: 37.4px;
   position: relative;
   line-height: 33.43px;
@@ -82,12 +82,12 @@
   flex-shrink: 0;
   debug_commit: f6aba90;
 }
-.div2 {
+.div4 {
   min-width: 96px;
   z-index: 3;
   margin-top: -0.6px;
 }
-.fyngmailcom {
+.fyngmailcom1 {
   width: 247.2px;
   font-size: inherit;
   font-weight: 400;
@@ -146,7 +146,7 @@
   height: 37.5px;
 }
 .contact,
-.gallery6,
+.gallery7,
 .testimonials1 {
   position: relative;
   line-height: 33.43px;
@@ -163,7 +163,7 @@
   white-space: pre-wrap;
   z-index: 2;
 }
-.gallery6 {
+.gallery7 {
   height: 37.4px;
   font-size: var(--material-2-title-size);
   min-width: 49px;
@@ -210,9 +210,9 @@
   align-self: stretch;
   justify-content: flex-start;
 }
-.frame-icon3,
-.frame-icon4,
-.frame-icon5 {
+.frame-icon6,
+.frame-icon7,
+.frame-icon8 {
   height: 19.8px;
   width: 21.6px;
   position: relative;
@@ -339,14 +339,14 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .about-us {
+  .about-us1 {
     font-size: var(--font-size-xl);
     line-height: 30px;
   }
   .hue-hueger {
     gap: 17px 34.1px;
   }
-  .contact-info {
+  .contact-info1 {
     font-size: var(--font-size-xl);
     line-height: 30px;
   }

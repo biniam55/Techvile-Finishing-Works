@@ -4,7 +4,7 @@
   display: inline-block;
   min-width: 55px;
 }
-.button1 {
+.button2 {
   border-radius: var(--br-7xs);
   background-color: var(--color-midnightblue);
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);

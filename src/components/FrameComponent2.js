@@ -3,11 +3,11 @@ import "./FrameComponent2.css";
 const FrameComponent2 = () => {
   return (
     <section className="gallery-child">
-      <div className="frame-parent12">
+      <div className="frame-parent15">
         <div className="background-parent">
           <div className="background">
             <div className="pictures">
-              <div className="div3" />
+              <div className="div5" />
               <div className="pictures-child" />
             </div>
             <div className="background-inner">
@@ -19,7 +19,7 @@ const FrameComponent2 = () => {
               </div>
             </div>
           </div>
-          <div className="div4">
+          <div className="div6">
             <div className="pictures-parent">
               <img
                 className="pictures-icon"
@@ -27,7 +27,7 @@ const FrameComponent2 = () => {
                 alt=""
                 src="/pictures1@2x.png"
               />
-              <div className="div5" />
+              <div className="div7" />
             </div>
             <div className="inner">
               <div className="title-group">
@@ -70,9 +70,9 @@ const FrameComponent2 = () => {
           </div>
         </div>
         <div className="subtitle1">
-          <div className="div6">
+          <div className="div8">
             <div className="pictures4">
-              <div className="div7" />
+              <div className="div9" />
               <div className="pictures-child2" />
             </div>
             <div className="child">
@@ -84,9 +84,9 @@ const FrameComponent2 = () => {
               </div>
             </div>
           </div>
-          <div className="div8">
+          <div className="div10">
             <div className="pictures5">
-              <div className="div9" />
+              <div className="div11" />
               <div className="pictures-child3" />
             </div>
             <div className="inner1">

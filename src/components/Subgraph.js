@@ -64,7 +64,7 @@ const Subgraph = ({
       <h1 className="i-will-let" style={iWillLetStyle}>
         {iWillLetMyMumKnowAboutThi}
       </h1>
-      <div className="frame-parent8" style={frameDivStyle}>
+      <div className="frame-parent11" style={frameDivStyle}>
         <div className="samri-wrapper">
           <h3 className="samri" style={samriStyle}>
             {samri}

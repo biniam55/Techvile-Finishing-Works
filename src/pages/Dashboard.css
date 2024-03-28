@@ -110,7 +110,7 @@
 .login-now-button1 {
   align-self: stretch;
   flex-direction: column;
-  gap: 52px;
+  gap: var(--gap-33xl);
   max-width: 100%;
 }
 .upload-image-icon {

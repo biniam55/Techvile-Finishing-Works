@@ -11,22 +11,22 @@ const GroupComponent = () => {
             <div className="contrast-controller">
               <div className="saturation-sifter">
                 <div className="hue-hueger">
-                  <h1 className="about-us">About Us</h1>
-                  <h2 className="crafting-excellence-through-container">
-                    <p className="crafting-excellence-through">
+                  <h1 className="about-us1">About Us</h1>
+                  <h2 className="crafting-excellence-through-container1">
+                    <p className="crafting-excellence-through1">
                       Crafting excellence through precision and passion, we
                       redefine spaces with our expert finishing works
                     </p>
                   </h2>
                 </div>
                 <div className="opacity-optimizer">
-                  <h1 className="contact-info">Contact Info</h1>
+                  <h1 className="contact-info1">Contact Info</h1>
                   <div className="data-container">
-                    <h2 className="rd-floor-somewhere">
+                    <h2 className="rd-floor-somewhere1">
                       3rd Floor somewhere, Addis Ababa
                     </h2>
-                    <div className="div2">0965325142</div>
-                    <h2 className="fyngmailcom">fyn@gmail.com</h2>
+                    <div className="div4">0965325142</div>
+                    <h2 className="fyngmailcom1">fyn@gmail.com</h2>
                   </div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const GroupComponent = () => {
                   <h2 className="testimonials1">Testimonials</h2>
                   <div className="radio-button-row">
                     <h2 className="contact">{`Contact     `}</h2>
-                    <h2 className="gallery6">Gallery</h2>
+                    <h2 className="gallery7">Gallery</h2>
                   </div>
                 </div>
               </div>
@@ -44,19 +44,19 @@ const GroupComponent = () => {
           </div>
           <div className="table-data-cluster">
             <img
-              className="frame-icon3"
+              className="frame-icon6"
               loading="lazy"
               alt=""
               src="/frame-1.svg"
             />
             <img
-              className="frame-icon4"
+              className="frame-icon7"
               loading="lazy"
               alt=""
               src="/frame-2.svg"
             />
             <img
-              className="frame-icon5"
+              className="frame-icon8"
               loading="lazy"
               alt=""
               src="/frame-3.svg"

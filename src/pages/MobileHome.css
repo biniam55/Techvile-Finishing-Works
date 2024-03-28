@@ -1,0 +1,196 @@
+.image-icon1 {
+  width: 304px;
+  height: 198px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.marble-and-granite {
+  width: 206px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.exquisite-marble-and {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--material-2-secondary-text-size);
+  color: var(--color-dimgray-100);
+}
+.graph-manager,
+.tree-leaf {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tree-leaf {
+  width: 256px;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.graph-manager {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xl);
+}
+.div1,
+.index-calculator {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.div1 {
+  align-self: stretch;
+  width: 256px;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.index-calculator {
+  height: 345px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-31xl) var(--padding-xl) 54px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.image-icon2 {
+  width: 304px;
+  height: 198px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ceramic-installation1 {
+  width: 222px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.expert-ceramic-installation1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--material-2-secondary-text-size);
+  color: var(--color-dimgray-100);
+}
+.signal-handler,
+.stack-manager {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signal-handler {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.stack-manager {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xl);
+}
+.timer,
+.timer-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.timer {
+  align-self: stretch;
+  width: 277px;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.timer-wrapper {
+  height: 314px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-14xl) var(--padding-7xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.image-icon3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-icon,
+.image-icon4 {
+  height: 102px;
+  position: relative;
+  object-fit: cover;
+  min-height: 102px;
+}
+.image-icon4 {
+  width: 148px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.group-icon {
+  width: 137px;
+}
+.image-group,
+.image-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-group {
+  height: 102px;
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.image-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.mobile-home,
+.mobile-home-inner {
+  display: flex;
+  box-sizing: border-box;
+}
+.mobile-home-inner {
+  align-self: stretch;
+  height: 239px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xl) var(--padding-6xs) var(--padding-17xl);
+}
+.mobile-home {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  gap: var(--gap-8xl);
+  letter-spacing: normal;
+}

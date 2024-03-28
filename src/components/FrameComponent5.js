@@ -21,16 +21,16 @@ const FrameComponent5 = ({
   }, [propAlignSelf, propPosition, propTop, propLeft, propWidth]);
 
   return (
-    <div className="frame-parent30" style={frameDiv1Style}>
+    <div className="frame-parent33" style={frameDiv1Style}>
       <div className="title-parent7">
         <div className="title18">{title}</div>
-        <div className="forgot3">Forgot？</div>
+        <div className="forgot5">Forgot？</div>
       </div>
-      <div className="input2">
-        <div className="input-text4">
-          <div className="context3">{context}</div>
-          <div className="iconeye-wrapper2">
-            <img className="iconeye4" alt="" src="/iconeye.svg" />
+      <div className="input3">
+        <div className="input-text5">
+          <div className="context4">{context}</div>
+          <div className="iconeye-wrapper3">
+            <img className="iconeye5" alt="" src="/iconeye.svg" />
           </div>
         </div>
       </div>

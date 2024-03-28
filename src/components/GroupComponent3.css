@@ -26,7 +26,7 @@
   left: 0;
   z-index: 1;
 }
-.about-us2 {
+.about-us3 {
   margin: 0;
   width: 133.2px;
   position: relative;
@@ -37,10 +37,10 @@
   display: inline-block;
   z-index: 2;
 }
-.crafting-excellence-through2 {
+.crafting-excellence-through3 {
   margin: 0;
 }
-.crafting-excellence-through-container2 {
+.crafting-excellence-through-container3 {
   align-self: stretch;
   height: 172.3px;
   position: relative;
@@ -51,7 +51,7 @@
   flex-shrink: 0;
   z-index: 2;
 }
-.about-us-group {
+.about-us-container {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@
   min-width: 265px;
   max-width: 100%;
 }
-.contact-info2 {
+.contact-info3 {
   margin: 0;
   width: 181.2px;
   position: relative;
@@ -72,29 +72,29 @@
   display: inline-block;
   z-index: 2;
 }
-.div16,
-.fyngmailcom2,
-.rd-floor-somewhere2 {
+.div18,
+.fyngmailcom3,
+.rd-floor-somewhere3 {
   position: relative;
   line-height: 34.9px;
   flex-shrink: 0;
   debug_commit: f6aba90;
 }
-.rd-floor-somewhere2 {
+.rd-floor-somewhere3 {
   align-self: stretch;
   white-space: pre-wrap;
   z-index: 2;
 }
-.div16,
-.fyngmailcom2 {
+.div18,
+.fyngmailcom3 {
   display: inline-block;
   margin-top: -0.5px;
 }
-.div16 {
+.div18 {
   min-width: 96px;
   z-index: 3;
 }
-.fyngmailcom2 {
+.fyngmailcom3 {
   width: 247.2px;
   z-index: 4;
 }
@@ -108,21 +108,21 @@
   color: var(--white);
   font-family: var(--material-2-secondary-text);
 }
-.contact-info-group,
-.frame-parent19 {
+.contact-info-container,
+.frame-parent22 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.contact-info-group {
+.contact-info-container {
   width: 349.2px;
   flex-direction: column;
   gap: var(--gap-6xl-6);
   min-width: 349.1999999999998px;
   color: var(--color-whitesmoke-100);
 }
-.frame-parent19 {
+.frame-parent22 {
   width: 825.6px;
   flex-direction: row;
   gap: var(--gap-49xl-4);
@@ -146,7 +146,7 @@
   line-height: 35px;
 }
 .contact2,
-.gallery10 {
+.gallery11 {
   position: relative;
   flex-shrink: 0;
   debug_commit: f6aba90;
@@ -157,7 +157,7 @@
   white-space: pre-wrap;
   z-index: 2;
 }
-.gallery10 {
+.gallery11 {
   font-size: var(--material-2-title-size);
   line-height: 34.9px;
   display: inline-block;
@@ -189,25 +189,25 @@
   gap: var(--gap-6xl-8);
   color: var(--color-whitesmoke-100);
 }
-.frame-parent18,
-.frame-wrapper4 {
+.frame-parent21,
+.frame-wrapper5 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.frame-parent18 {
+.frame-parent21 {
   width: 1162px;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.frame-wrapper4 {
+.frame-wrapper5 {
   align-self: stretch;
   justify-content: flex-start;
 }
-.frame-icon10,
-.frame-icon11,
-.frame-icon9 {
+.frame-icon12,
+.frame-icon13,
+.frame-icon14 {
   height: 18.5px;
   width: 21.6px;
   position: relative;
@@ -216,7 +216,7 @@
   min-height: 19px;
   z-index: 2;
 }
-.frame-parent20 {
+.frame-parent23 {
   height: 18.5px;
   display: flex;
   flex-direction: row;
@@ -225,18 +225,18 @@
   gap: var(--gap-mini-4);
   margin-top: -21.5px;
 }
-.frame-parent17,
-.frame-wrapper3 {
+.frame-parent20,
+.frame-wrapper4 {
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-parent17 {
+.frame-parent20 {
   flex: 1;
   flex-direction: column;
   align-items: flex-end;
 }
-.frame-wrapper3 {
+.frame-wrapper4 {
   width: 1279.2px;
   flex-direction: row;
   align-items: flex-start;
@@ -311,20 +311,20 @@
   font-family: var(--font-raleway);
 }
 @media screen and (max-width: 1125px) {
-  .frame-parent18 {
+  .frame-parent21 {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 1025px) {
-  .frame-parent19 {
+  .frame-parent22 {
     gap: 68.4px 34px;
   }
 }
 @media screen and (max-width: 750px) {
-  .contact-info-group {
+  .contact-info-container {
     flex: 1;
   }
-  .frame-parent19 {
+  .frame-parent22 {
     flex-wrap: wrap;
   }
   .rectangle-parent3 {
@@ -335,21 +335,21 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .about-us2 {
+  .about-us3 {
     font-size: var(--font-size-xl);
     line-height: 30px;
   }
-  .about-us-group {
+  .about-us-container {
     gap: 16px 31.7px;
   }
-  .contact-info2 {
+  .contact-info3 {
     font-size: var(--font-size-xl);
     line-height: 30px;
   }
-  .contact-info-group {
+  .contact-info-container {
     min-width: 100%;
   }
-  .frame-parent19 {
+  .frame-parent22 {
     gap: 68.4px 17px;
   }
   .our-company2 {

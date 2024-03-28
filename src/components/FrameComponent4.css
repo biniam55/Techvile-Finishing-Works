@@ -1,11 +1,11 @@
-.login-now1 {
+.login-now2 {
   position: relative;
   line-height: 100%;
   font-weight: 600;
   display: inline-block;
   min-width: 128px;
 }
-.button2 {
+.button3 {
   align-self: stretch;
   border-radius: var(--br-5xs);
   background-color: var(--color-midnightblue);
@@ -22,12 +22,12 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.login-now2 {
+.login-now3 {
   position: relative;
   line-height: 100%;
   font-weight: 600;
 }
-.button3 {
+.button4 {
   align-self: stretch;
   height: 48px;
   border-radius: var(--br-5xs);

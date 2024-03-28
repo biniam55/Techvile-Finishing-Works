@@ -2,8 +2,8 @@ import "./FrameComponent.css";
 
 const FrameComponent = () => {
   return (
-    <div className="rectangle-parent">
-      <div className="rectangle-div" />
+    <div className="rectangle-group">
+      <div className="frame-child2" />
       <div className="input-processor">
         <div className="output-formatter">
           <img
@@ -26,13 +26,13 @@ const FrameComponent = () => {
           <div className="function-call">
             <div className="repeater">
               <img
-                className="frame-icon2"
+                className="frame-icon5"
                 loading="lazy"
                 alt=""
                 src="/frame.svg"
               />
               <img
-                className="vector-icon"
+                className="vector-icon1"
                 loading="lazy"
                 alt=""
                 src="/vector-2.svg"

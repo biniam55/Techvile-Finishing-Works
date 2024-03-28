@@ -7,28 +7,28 @@ const GroupComponent3 = () => {
       <div className="rectangle9" />
       <div className="rectangle-parent3">
         <div className="rectangle10" />
-        <div className="frame-wrapper3">
-          <div className="frame-parent17">
-            <div className="frame-wrapper4">
-              <div className="frame-parent18">
-                <div className="frame-parent19">
-                  <div className="about-us-group">
-                    <h3 className="about-us2">About Us</h3>
-                    <div className="crafting-excellence-through-container2">
-                      <p className="crafting-excellence-through2">
+        <div className="frame-wrapper4">
+          <div className="frame-parent20">
+            <div className="frame-wrapper5">
+              <div className="frame-parent21">
+                <div className="frame-parent22">
+                  <div className="about-us-container">
+                    <h3 className="about-us3">About Us</h3>
+                    <div className="crafting-excellence-through-container3">
+                      <p className="crafting-excellence-through3">
                         Crafting excellence through precision and passion, we
                         redefine spaces with our expert finishing works
                       </p>
                     </div>
                   </div>
-                  <div className="contact-info-group">
-                    <h3 className="contact-info2">Contact Info</h3>
+                  <div className="contact-info-container">
+                    <h3 className="contact-info3">Contact Info</h3>
                     <div className="rd-floor-somewhere-addis-abab-group">
-                      <div className="rd-floor-somewhere2">
+                      <div className="rd-floor-somewhere3">
                         3rd Floor somewhere, Addis Ababa
                       </div>
-                      <div className="div16">0965325142</div>
-                      <div className="fyngmailcom2">fyn@gmail.com</div>
+                      <div className="div18">0965325142</div>
+                      <div className="fyngmailcom3">fyn@gmail.com</div>
                     </div>
                   </div>
                 </div>
@@ -38,27 +38,27 @@ const GroupComponent3 = () => {
                     <div className="testimonials4">Testimonials</div>
                     <div className="contact-group">
                       <div className="contact2">{`Contact     `}</div>
-                      <div className="gallery10">Gallery</div>
+                      <div className="gallery11">Gallery</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="frame-parent20">
+            <div className="frame-parent23">
               <img
-                className="frame-icon9"
+                className="frame-icon12"
                 loading="lazy"
                 alt=""
                 src="/frame1.svg"
               />
               <img
-                className="frame-icon10"
+                className="frame-icon13"
                 loading="lazy"
                 alt=""
                 src="/frame-11.svg"
               />
               <img
-                className="frame-icon11"
+                className="frame-icon14"
                 loading="lazy"
                 alt=""
                 src="/frame-21.svg"

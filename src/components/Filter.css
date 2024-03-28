@@ -19,7 +19,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.image-icon3 {
+.image-icon7 {
   align-self: stretch;
   height: 543.7px;
   position: relative;
@@ -39,7 +39,7 @@
   min-width: 227px;
   max-width: 100%;
 }
-.image-icon4,
+.image-icon8,
 .output-dispenser-child {
   position: relative;
   max-width: 100%;
@@ -47,7 +47,7 @@
   flex-shrink: 0;
   debug_commit: f6aba90;
 }
-.image-icon4 {
+.image-icon8 {
   align-self: stretch;
   height: 242.4px;
   object-fit: contain;
@@ -104,7 +104,7 @@
   flex-direction: column;
   gap: var(--gap-4xl);
 }
-.frame-child1 {
+.frame-child4 {
   height: 50px;
   width: 269.9px;
   position: relative;
@@ -123,7 +123,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.rectangle-group {
+.rectangle-container {
   flex: 1;
   border-radius: var(--br-8xs);
   background-color: var(--color-gray-700);

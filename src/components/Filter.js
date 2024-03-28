@@ -12,7 +12,7 @@ const Filter = () => {
           <div className="splitter">
             <div className="transformer">
               <img
-                className="image-icon3"
+                className="image-icon7"
                 loading="lazy"
                 alt=""
                 src="/image-4@2x.png"
@@ -20,7 +20,7 @@ const Filter = () => {
             </div>
             <div className="processor-chain">
               <img
-                className="image-icon4"
+                className="image-icon8"
                 loading="lazy"
                 alt=""
                 src="/image-5@2x.png"
@@ -65,8 +65,8 @@ const Filter = () => {
                 </div>
               </div>
               <div className="decision-maker-inner">
-                <div className="rectangle-group">
-                  <div className="frame-child1" />
+                <div className="rectangle-container">
+                  <div className="frame-child4" />
                   <div className="view-gallery">View Gallery</div>
                 </div>
               </div>

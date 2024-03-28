@@ -1,4 +1,4 @@
-.fyn,
+.fyn1,
 .home {
   margin: 0;
   position: relative;
@@ -9,7 +9,7 @@
   font-family: inherit;
   display: inline-block;
 }
-.fyn {
+.fyn1 {
   width: 69.6px;
   flex-shrink: 0;
 }
@@ -23,7 +23,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-7xl) 0 0;
 }
-.gallery4 {
+.gallery5 {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -41,7 +41,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-16xl) 0 0;
 }
-.service,
+.service1,
 .testimonials {
   margin: 0;
   position: relative;
@@ -51,7 +51,7 @@
   font-weight: 400;
   font-family: inherit;
 }
-.service {
+.service1 {
   display: inline-block;
   min-width: 92px;
 }
@@ -104,7 +104,7 @@
   border-radius: 37.95px;
   z-index: 1;
 }
-.gallery5 {
+.gallery6 {
   position: relative;
   line-height: 34px;
   display: inline-block;
@@ -174,39 +174,39 @@
   color: var(--white);
   font-family: var(--material-2-secondary-text);
 }
-.fyn-parent,
-.image-icon2 {
+.fyn-group,
+.image-icon6 {
   align-self: stretch;
   max-width: 100%;
 }
-.fyn-parent {
+.fyn-group {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.image-icon2 {
+.image-icon6 {
   height: 198px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
 }
-.exquisite-marble-and,
-.marble-and-granite {
+.exquisite-marble-and1,
+.marble-and-granite1 {
   margin: 0;
   position: relative;
   font-family: inherit;
 }
-.marble-and-granite {
+.marble-and-granite1 {
   width: 206px;
   font-size: inherit;
   font-weight: 500;
   display: flex;
   align-items: center;
 }
-.exquisite-marble-and {
+.exquisite-marble-and1 {
   align-self: stretch;
   font-size: var(--material-2-secondary-text-size);
   font-weight: 400;
@@ -260,12 +260,12 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.group-icon {
+.frame-child3 {
   height: 18px;
   width: 164px;
   position: relative;
 }
-.frame-wrapper1 {
+.frame-wrapper2 {
   align-self: stretch;
   height: 18px;
   display: flex;
@@ -276,7 +276,7 @@
   box-sizing: border-box;
 }
 .color-manager-parent,
-.frame-parent7 {
+.frame-parent10 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -289,7 +289,7 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-.frame-parent7 {
+.frame-parent10 {
   width: 1113px;
   gap: var(--gap-52xl);
   max-width: 100%;
@@ -309,7 +309,7 @@
   font-family: var(--font-lora);
 }
 @media screen and (max-width: 1200px) {
-  .frame-parent7 {
+  .frame-parent10 {
     gap: 35px 71px;
   }
   .connection-point {
@@ -318,7 +318,7 @@
   }
 }
 @media screen and (max-width: 1050px) {
-  .gallery5 {
+  .gallery6 {
     font-size: var(--font-size-5xl);
     line-height: 27px;
   }
@@ -327,7 +327,7 @@
     line-height: 20px;
   }
   .color-manager,
-  .fyn-parent {
+  .fyn-group {
     flex-wrap: wrap;
   }
   .connection-point {
@@ -339,12 +339,12 @@
   .data-sorter {
     gap: 108px 217px;
   }
-  .frame-parent7 {
+  .frame-parent10 {
     gap: 18px 71px;
   }
 }
 @media screen and (max-width: 450px) {
-  .fyn {
+  .fyn1 {
     font-size: var(--material-2-title-size);
     line-height: 20px;
   }
@@ -355,7 +355,7 @@
     padding-bottom: var(--padding-203xl);
     box-sizing: border-box;
   }
-  .gallery5 {
+  .gallery6 {
     font-size: var(--font-size-lg);
     line-height: 20px;
   }

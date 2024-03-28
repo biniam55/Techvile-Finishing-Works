@@ -27,12 +27,12 @@
   padding: var(--padding-12xs) 0 0;
   box-sizing: border-box;
 }
-.dashboard1,
+.dashboard5,
 .v01 {
   position: relative;
   z-index: 1;
 }
-.dashboard1 {
+.dashboard5 {
   margin: 0;
   font-size: inherit;
   letter-spacing: 0.01em;
@@ -45,7 +45,7 @@
   display: inline-block;
   min-width: 18px;
 }
-.frame-parent21,
+.frame-parent24,
 .v01-wrapper {
   display: flex;
   align-items: flex-start;
@@ -57,7 +57,7 @@
   font-size: var(--material-2-overline-size);
   color: var(--color-gray-100);
 }
-.frame-parent21 {
+.frame-parent24 {
   flex-direction: row;
   padding: 0 0 var(--padding-11xl);
   gap: var(--gap-7xs);
@@ -72,7 +72,7 @@
   min-height: 24px;
   z-index: 1;
 }
-.dashboard2 {
+.dashboard6 {
   align-self: stretch;
   height: 21px;
   position: relative;
@@ -107,7 +107,7 @@
   padding: 0 var(--padding-2xs);
   box-sizing: border-box;
 }
-.frame-child3 {
+.frame-child6 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -119,47 +119,12 @@
   border-radius: var(--br-5xs);
   background-color: var(--color-midnightblue);
 }
-.frame-icon12,
-.gallery11 {
+.frame-icon15,
+.gallery12 {
   position: relative;
   z-index: 1;
 }
-.frame-icon12 {
-  height: 24px;
-  width: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-  min-height: 24px;
-}
-.gallery11 {
-  letter-spacing: -0.01em;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 50px;
-}
-.gallery-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-11xs) 0 0;
-}
-.frame-icon13,
-.group-div {
-  position: relative;
-  z-index: 2;
-}
-.group-div {
-  align-self: stretch;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-3xs) var(--padding-smi) var(--padding-xs);
-  gap: var(--gap-lg);
-}
-.frame-icon13 {
+.frame-icon15 {
   height: 24px;
   width: 24px;
   overflow: hidden;
@@ -167,6 +132,38 @@
   min-height: 24px;
 }
 .gallery12 {
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 50px;
+}
+.gallery-container,
+.rectangle-parent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.rectangle-parent4 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-xs);
+  position: relative;
+  gap: var(--gap-lg);
+  z-index: 2;
+}
+.frame-icon16 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.gallery13 {
   align-self: stretch;
   position: relative;
   letter-spacing: -0.01em;
@@ -181,27 +178,27 @@
   justify-content: flex-start;
   padding: var(--padding-11xs) 0 0;
 }
-.frame-parent23 {
+.frame-parent26 {
   align-self: stretch;
   flex: 1;
   flex-direction: row;
   gap: var(--gap-smi);
 }
-.frame-parent22,
-.frame-parent23,
-.frame-wrapper5 {
+.frame-parent25,
+.frame-parent26,
+.frame-wrapper6 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper5 {
+.frame-wrapper6 {
   width: 111px;
   height: 24px;
   flex-direction: row;
   padding: 0 var(--padding-xs);
   box-sizing: border-box;
 }
-.frame-parent22 {
+.frame-parent25 {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
@@ -252,18 +249,18 @@
   debug_commit: f6aba90;
   z-index: 1;
 }
-.frame-parent25 {
+.frame-parent28 {
   align-self: stretch;
   flex-direction: column;
 }
 .ellipse-parent,
-.frame-parent25,
-.frame-wrapper6 {
+.frame-parent28,
+.frame-wrapper7 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper6 {
+.frame-wrapper7 {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-11xs) 0 0;
@@ -290,12 +287,12 @@
   box-sizing: border-box;
 }
 .chevron-down-2-wrapper,
-.frame-parent24,
+.frame-parent27,
 .side-menu {
   display: flex;
   align-items: flex-start;
 }
-.frame-parent24 {
+.frame-parent27 {
   align-self: stretch;
   height: 42px;
   flex-direction: row;
@@ -322,7 +319,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .dashboard1 {
+  .dashboard5 {
     font-size: var(--font-size-2xl);
   }
   .side-menu {

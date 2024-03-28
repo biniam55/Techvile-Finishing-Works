@@ -1,0 +1,76 @@
+.fyn3,
+.value-comparator-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.fyn3 {
+  width: 69.6px;
+  letter-spacing: 0.16px;
+  line-height: 25.2px;
+  display: inline-block;
+}
+.value-comparator-icon {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  min-height: 24px;
+}
+.input-handler,
+.output-processor {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.output-processor {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.input-handler {
+  height: 24px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) 0 var(--padding-lgi);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--material-2-title-size);
+  color: var(--color-gray-400);
+  font-family: var(--font-lora);
+}
+.data-splitter-icon {
+  height: 206px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.error-handler-icon {
+  height: 2px;
+  width: 74px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 14px;
+  left: calc(50% - 37px);
+  z-index: 1;
+}
+.logic-tree,
+.loop-controller {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loop-controller {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+.logic-tree {
+  height: 246px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base);
+}
