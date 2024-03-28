@@ -1,0 +1,25 @@
+.email1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 41px;
+}
+.email {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-mini);
+  box-sizing: border-box;
+  min-width: 138px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--material-2-title-size);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,268 @@
+.mapsZoomLevels2City {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.controlsGoogleLogoColor {
+  height: 26px;
+  width: 66px;
+  position: relative;
+  z-index: 1;
+}
+.colorCanvasChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 100%;
+}
+.mapData2019 {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 1;
+}
+.colorCanvas {
+  height: 15px;
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.colorCanvasItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 100%;
+}
+.termsOfUse {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  display: inline-block;
+  min-width: 60px;
+  z-index: 1;
+}
+.colorCanvas1 {
+  height: 15px;
+  width: 70px;
+  position: relative;
+  white-space: nowrap;
+}
+.colorCanvasInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 100%;
+}
+.reportAMap {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 1;
+}
+.colorCanvas2 {
+  height: 15px;
+  width: 94px;
+  position: relative;
+  white-space: nowrap;
+}
+.controlsGoogleMapsByline {
+  width: 287px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  z-index: 1;
+}
+.eraser,
+.formFlow {
+  width: 100%;
+  position: absolute;
+}
+.formFlow {
+  top: 565px;
+  left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.eraser {
+  height: 100%;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.map {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 22px;
+  z-index: 1;
+}
+.blender {
+  width: 22px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.penPalette,
+.satellite {
+  position: relative;
+  z-index: 1;
+}
+.penPalette {
+  height: 30px;
+  width: 1px;
+  border-right: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.satellite {
+  align-self: stretch;
+  display: inline-block;
+  min-width: 40px;
+}
+.blender1,
+.controlsMapType {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.blender1 {
+  width: 40px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  color: var(--color-dimgray-200);
+}
+.controlsMapType {
+  height: 29px;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-5xs-5);
+  z-index: 1;
+}
+.controlsZoomControls {
+  width: 28px;
+  height: 53px;
+  position: relative;
+  object-fit: cover;
+}
+.distributionDispenser {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.pegmanOffscreen2xIcon {
+  position: absolute;
+  height: 71.43%;
+  width: 42.86%;
+  top: 14.29%;
+  right: 28.57%;
+  bottom: 14.29%;
+  left: 28.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.controlsStreetView {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+.alignAssistant,
+.controls {
+  display: flex;
+  align-items: flex-start;
+}
+.controls {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.alignAssistant {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 632px;
+  height: 89px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.mapsFullMap {
+  height: 591px;
+  flex: 1;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  min-width: 421px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--material-2-overline-size);
+  color: var(--color-gray-500);
+  font-family: var(--material-2-secondary-text);
+}
+@media screen and (max-width: 750px) {
+  .mapsFullMap {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .formFlow {
+    flex-wrap: wrap;
+  }
+  .mapsFullMap {
+    height: auto;
+    min-height: 591;
+  }
+}

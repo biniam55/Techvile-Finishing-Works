@@ -1,0 +1,174 @@
+.iconInventoryChild {
+  width: 598px;
+  height: 495px;
+  position: relative;
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.connectUs {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  white-space: pre-wrap;
+  text-align: left;
+  z-index: 1;
+}
+.containerClust {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.fillTheForm {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-400);
+  text-align: left;
+  z-index: 1;
+}
+.arcArchive,
+.nameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arcArchive {
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+}
+.nameParent {
+  gap: var(--gap-mid);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameParent,
+.iconInventory,
+.pathPlot,
+.videoViewport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pathPlot {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-14xl);
+  gap: var(--gap-6xl);
+}
+.iconInventory,
+.videoViewport {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+}
+.iconInventory {
+  margin: 0;
+  flex: 1;
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-77xl) var(--padding-59xl) var(--padding-90xl)
+    var(--padding-60xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  max-width: 100%;
+}
+.contactForm5 {
+  align-self: stretch;
+  height: 465px;
+  background: linear-gradient(#fff, #fff), #fff;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.buttonBank,
+.buttonBankParent,
+.contactForm5,
+.shapeSet {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buttonBank {
+  width: 589px;
+  flex-direction: column;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  min-width: 589px;
+}
+.buttonBankParent,
+.shapeSet {
+  flex-direction: row;
+}
+.buttonBankParent {
+  flex: 1;
+  gap: var(--gap-31xl);
+}
+.shapeSet {
+  width: 1391px;
+  padding: 0 var(--padding-33xl) var(--padding-148xl-2);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--material-2-overline-size);
+  color: var(--color-gray-500);
+  font-family: var(--material-2-secondary-text);
+}
+@media screen and (max-width: 1200px) {
+  .buttonBank {
+    flex: 1;
+  }
+  .buttonBankParent {
+    flex-wrap: wrap;
+  }
+  .shapeSet {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .connectUs {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .nameParent {
+    flex-wrap: wrap;
+  }
+  .iconInventory {
+    padding: var(--padding-43xl) var(--padding-20xl) var(--padding-52xl);
+    box-sizing: border-box;
+  }
+  .contactForm5 {
+    height: auto;
+  }
+  .buttonBank {
+    min-width: 100%;
+  }
+  .buttonBankParent {
+    gap: 50px 25px;
+  }
+  .shapeSet {
+    padding-bottom: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .connectUs {
+    font-size: var(--font-size-lgi);
+  }
+}

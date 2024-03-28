@@ -1,0 +1,328 @@
+.gallery {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.weHaveSolutions {
+  margin: 0;
+  font-family: var(--font-inter);
+}
+.galleryWeHaveContainer {
+  margin: 0 !important;
+  width: 849px;
+  height: 71px;
+  position: absolute;
+  top: 167px;
+  left: calc(50% - 424px);
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 25.2px;
+  display: inline-block;
+  font-family: inherit;
+}
+.frameIcon {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.title,
+.welcomeBack {
+  position: relative;
+  line-height: 100%;
+  font-family: var(--body-large-regular);
+  text-align: left;
+}
+.welcomeBack {
+  width: 120px;
+  font-size: var(--material-2-title-size);
+  color: var(--text-secondary);
+  display: none;
+}
+.title {
+  margin: 0;
+  font-size: var(--heading-size);
+  font-weight: 600;
+  color: var(--foreground-high);
+}
+.welcomeBackParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.email {
+  flex: 1;
+  position: relative;
+  font-size: var(--material-2-title-size);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--body-large-regular);
+  color: var(--foreground-default);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.emailWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loginNowButton {
+  flex: 1;
+  position: relative;
+  font-size: var(--material-2-secondary-text-size);
+  line-height: 100%;
+  font-family: var(--body-large-regular);
+  color: var(--foreground-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 107px;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.iconeye {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.iconeyeWrapper {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frameContainer,
+.inputText,
+.inputTextWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputText {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 3px solid var(--color-midnightblue);
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-smi);
+  gap: var(--gap-8xs);
+}
+.frameContainer,
+.inputTextWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.frameContainer {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.forgot,
+.password {
+  position: relative;
+  font-size: var(--material-2-title-size);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--body-large-regular);
+}
+.password {
+  flex: 1;
+  color: var(--foreground-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+  max-width: 100%;
+}
+.forgot {
+  height: 16px;
+  width: 0;
+  color: var(--foreground-primary);
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.passwordParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.context {
+  flex: 1;
+  position: relative;
+  font-size: var(--material-2-secondary-text-size);
+  line-height: 100%;
+  font-family: var(--body-large-regular);
+  color: var(--foreground-low);
+  text-align: left;
+  display: inline-block;
+  min-width: 112px;
+  max-width: 100%;
+}
+.iconeye1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconeyeContainer {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frameDiv,
+.input,
+.inputText1 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.inputText1 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--outline-default);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-mini);
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.frameDiv,
+.input {
+  align-items: flex-start;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameDiv {
+  gap: var(--gap-xs);
+}
+.form,
+.frameDiv,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.form {
+  margin: 0;
+  width: 699px;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  box-shadow: 40px 40px 60px rgba(228, 231, 234, 0.74);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-53xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  z-index: 1;
+}
+.formWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.formWrapper,
+.frameParent,
+.signIn,
+.signInInner {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  width: 893px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 74px;
+  max-width: 100%;
+}
+.signIn,
+.signInInner {
+  box-sizing: border-box;
+}
+.signInInner {
+  width: 1213px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.signIn {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0 0;
+  gap: 123.1px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-lora);
+}
+@media screen and (max-width: 1025px) {
+  .galleryWeHaveContainer {
+    font-size: var(--font-size-7xl);
+    line-height: 20px;
+  }
+  .frameParent {
+    gap: 37px 74px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .form {
+    gap: 16px 32px;
+    padding: 31px var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .signIn {
+    gap: 62px 123.1px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .galleryWeHaveContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 15px;
+  }
+  .title {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .forgot {
+    width: 100%;
+    height: 0;
+  }
+  .frameParent {
+    gap: 18px 74px;
+  }
+  .signIn {
+    gap: 31px 123.1px;
+  }
+}

@@ -1,0 +1,75 @@
+.forgot,
+.title {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.title {
+  flex: 1;
+  display: inline-block;
+  max-width: 100%;
+}
+.forgot {
+  width: 68px;
+  color: var(--foreground-primary);
+  text-align: right;
+  display: none;
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.context {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  max-width: 100%;
+}
+.iconeye {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconeyeWrapper {
+  height: 24px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frameParent,
+.input,
+.inputText {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputText {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--outline-default);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-mini);
+  gap: var(--gap-8xs);
+}
+.frameParent,
+.input {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--material-2-secondary-text-size);
+  color: var(--foreground-low);
+}
+.frameParent {
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--material-2-title-size);
+  color: var(--foreground-default);
+  font-family: var(--body-large-regular);
+}
