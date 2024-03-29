@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./FrameComponent3.css";
 
 const FrameComponent3 = () => {
@@ -8,7 +9,7 @@ const FrameComponent3 = () => {
           <h3 className="fyn2">FYN</h3>
           <nav className="frame-nav">
             <div className="home-wrapper">
-              <h3 className="home1">HOME</h3>
+             <Link to={"/"}><h3 className="home1">HOME</h3></Link> 
             </div>
             <div className="gallery-wrapper">
               <h3 className="gallery9">GALLERY</h3>

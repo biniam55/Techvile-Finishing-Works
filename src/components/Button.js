@@ -2,9 +2,9 @@ import "./Button.css";
 
 const Button = () => {
   return (
-    <div className="button2">
+    <button className="button2">
       <b className="submit">Submit</b>
-    </div>
+    </button>
   );
 };
 

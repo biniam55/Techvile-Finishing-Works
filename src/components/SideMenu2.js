@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./SideMenu2.css";
 
 const SideMenu2 = () => {
@@ -13,7 +14,7 @@ const SideMenu2 = () => {
             src="/setting-11.svg"
           />
         </div>
-        <h2 className="dashboard10">Dashboard</h2>
+       <Link to={"/"}> <div className="dashboard10">Dashboard</div></Link> 
         <div className="v01-frame">
           <div className="v012">v.01</div>
         </div>
@@ -30,7 +31,7 @@ const SideMenu2 = () => {
       <div className="side-menu-inner2">
         <div className="frame-parent53">
           <div className="manage-posts-container">
-            <div className="manage-posts1">Manage posts</div>
+           <Link to={"/dashboard1"}><div className="manage-posts1">Manage posts</div></Link> 
           </div>
           <div className="user-square-1-parent">
             <img

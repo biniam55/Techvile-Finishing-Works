@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ErrorHandler from "./ErrorHandler";
 import "./Filter.css";
 
@@ -67,7 +68,7 @@ const Filter = () => {
               <div className="decision-maker-inner">
                 <div className="group-div">
                   <div className="frame-child8" />
-                  <div className="view-gallery">View Gallery</div>
+                  <Link to={"/gallery"}><div className="view-gallery">View Gallery</div></Link>
                 </div>
               </div>
             </div>

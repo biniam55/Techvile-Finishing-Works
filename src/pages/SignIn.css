@@ -58,7 +58,7 @@
   position: relative;
   font-size: var(--material-2-title-size);
   line-height: 100%;
-  text-transform: capitalize;
+  text-transform: none;
   font-family: var(--body-large-regular);
   color: var(--foreground-default);
   text-align: left;
@@ -73,7 +73,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.login-now-button {
+input {
   flex: 1;
   position: relative;
   font-size: var(--material-2-secondary-text-size);
@@ -132,7 +132,7 @@
   position: relative;
   font-size: var(--material-2-title-size);
   line-height: 100%;
-  text-transform: capitalize;
+  text-transform: none;
   font-family: var(--body-large-regular);
 }
 .password1 {
@@ -161,7 +161,7 @@
   max-width: 100%;
   row-gap: 20px;
 }
-.context2 {
+.input {
   flex: 1;
   position: relative;
   font-size: var(--material-2-secondary-text-size);
@@ -177,8 +177,11 @@
   height: 24px;
   width: 24px;
   position: relative;
+
 }
 .iconeye-wrapper1 {
+  margin-left: 30%;
+  position: absolute;
   height: 24px;
   display: flex;
   flex-direction: row;
@@ -192,8 +195,10 @@
   justify-content: flex-start;
 }
 .input-text3 {
+  flex: 1;
+  padding-right: 40px;
   border-radius: var(--br-5xs);
-  border: 1px solid var(--outline-default);
+  border: 3px solid var(--color-midnightblue);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -209,9 +214,12 @@
 }
 .input1 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   max-width: 100%;
 }
+
 .frame-parent4 {
   gap: var(--gap-xs);
 }

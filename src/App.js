@@ -1,9 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   Routes,
   Route,
   useNavigationType,
   useLocation,
+  useNavigate,
+  Navigate,
 } from "react-router-dom";
 import DesktopMain from "./pages/DesktopMain";
 import Gallery from "./pages/Gallery";
@@ -15,9 +17,11 @@ import MobileGallery from "./pages/MobileGallery";
 import Dashboard1 from "./pages/Dashboard1";
 import MobileSignUp from "./pages/MobileSignUp";
 import MobileSignIn from "./pages/MobileSignIn";
-import Dashboard from "./pages/Dashboard2";
+import DashboardPost from "./pages/Dashboard2";
 
 function App() {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const navigate = useNavigate();
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
@@ -92,20 +96,41 @@ function App() {
       }
     }
   }, [pathname]);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const emailInput = form.email; // Access email input
+    const passwordInput = form.password ; // Access password input
+    const email = emailInput.value; // Get email value
+    const password = passwordInput.value; // Get password value
+    if (email === "admin@gmail.com" && password === "12345678") {
+      setLoggedIn(true);
+      navigate("/dashboard2"); // Redirect to dashboard after successful login
+    } else {
+      alert("Invalid credentials. Please try again.");
+    }
+  };
 
   return (
     <Routes>
       <Route path="/" element={<DesktopMain />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/sign-up" element={<SignUp />} />
-      <Route path="/sign-in" element={<SignIn />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/sign-in" element={<SignIn handleSubmit={handleSubmit} loggedIn={loggedIn} setLoggedin={setLoggedIn}/>} />
+      <Route
+        path="/dashboard"
+        element={loggedIn ? <DashboardPost/> : <Navigate to="/sign-in" />}
+      />
+      <Route
+        path="/dashboard1"
+        element={loggedIn ? <Dashboard/> : <Navigate to="/" />}
+      />
       <Route path="/mobile-home" element={<MobileHome />} />
       <Route path="/mobile-gallery" element={<MobileGallery />} />
       <Route path="/dashboard1" element={<Dashboard1 />} />
       <Route path="/mobile-sign-up" element={<MobileSignUp />} />
       <Route path="/mobile-sign-in" element={<MobileSignIn />} />
-      <Route path="/dashboard2" element={<Dashboard />} />
+      <Route path="/dashboard2" element={<DashboardPost />} />
     </Routes>
   );
 }

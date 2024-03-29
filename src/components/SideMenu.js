@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./SideMenu.css";
 
 const SideMenu = () => {
@@ -27,7 +28,7 @@ const SideMenu = () => {
             src="/icon--24--outline--keysquare-1.svg"
           />
           <div className="manage-posts-dashboard">
-            <div className="dashboard9">Dashboard</div>
+            <Link to={"/dashboard2"}><div className="dashboard9">Dashboard</div></Link>
           </div>
         </div>
       </div>

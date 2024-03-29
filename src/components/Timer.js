@@ -1,3 +1,4 @@
+import ErrorHandler from "./ErrorHandler";
 import "./Timer.css";
 
 const Timer = () => {

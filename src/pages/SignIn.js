@@ -1,8 +1,13 @@
+import { useState } from "react";
 import FrameComponent4 from "../components/FrameComponent4";
 import GroupComponent3 from "../components/GroupComponent3";
 import "./SignIn.css";
+import { Link } from "react-router-dom";
 
-const SignIn = () => {
+const SignIn = ({ handleSubmit, loggedIn, setLoggedIn }) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  // const navigate = useNavigate();
   return (
     <div className="sign-in">
       <h1 className="gallery-we-have-container1">
@@ -13,17 +18,19 @@ const SignIn = () => {
       </h1>
       <section className="sign-in-inner">
         <div className="frame-parent1">
-          <img
-            className="frame-icon1"
-            loading="lazy"
-            alt=""
-            src="/frame2.svg"
-          />
+          <Link to={"/"}>
+            <img
+              className="frame-icon1"
+              loading="lazy"
+              alt=""
+              src="/frame2.svg"
+            />
+          </Link>
           <div className="form-container">
-            <form className="form1">
+            <form className="form1" onSubmit={handleSubmit}>
               <div className="welcome-back-group">
                 <div className="welcome-back1">Welcome back</div>
-                <h2 className="title1">Create an account</h2>
+                <h2 className="title1">Admin Login</h2>
               </div>
               <div className="frame-parent2">
                 <div className="frame-parent3">
@@ -31,12 +38,15 @@ const SignIn = () => {
                     <div className="email1">Email</div>
                   </div>
                   <div className="input-text-container">
-                    <div className="input-text2">
-                      <div className="login-now-button">abebe@gmail.com</div>
-                      <div className="iconeye-frame">
-                        <img className="iconeye2" alt="" src="/iconeye.svg" />
-                      </div>
-                    </div>
+                    <input
+                      className="input-text2"
+                      placeholder="admin@example.com"
+                      type="email"
+                      name="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                    
                   </div>
                 </div>
                 <div className="frame-parent4">
@@ -45,11 +55,16 @@ const SignIn = () => {
                     <div className="forgot1" />
                   </div>
                   <div className="input1">
-                    <div className="input-text3">
-                      <div className="context2">Enter your password</div>
-                      <div className="iconeye-wrapper1">
-                        <img className="iconeye3" alt="" src="/iconeye.svg" />
-                      </div>
+                    <input
+                      className="input-text3"
+                      placeholder="Enter your password"
+                      type="password"
+                      name="password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                    />
+                    <div className="iconeye-wrapper1">
+                      <img className="iconeye3" alt="" src="/iconeye.svg" />
                     </div>
                   </div>
                 </div>

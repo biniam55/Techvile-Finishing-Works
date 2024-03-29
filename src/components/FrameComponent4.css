@@ -4,6 +4,7 @@
   font-weight: 600;
   display: inline-block;
   min-width: 128px;
+ 
 }
 .button3 {
   align-self: stretch;
@@ -14,6 +15,8 @@
   align-items: center;
   justify-content: center;
   padding: var(--padding-base) var(--padding-xl);
+  color: white;
+  cursor: pointer;
 }
 .icongoogle-original {
   height: 20px;
