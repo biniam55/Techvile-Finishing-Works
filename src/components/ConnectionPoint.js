@@ -4,12 +4,12 @@ import "./ConnectionPoint.css";
 
 const ConnectionPoint = () => {
   return (
-    <section className="connection-point">
+    <section className="connection-point Services" id="Services">
       <div className="frame-parent13">
         <div className="fyn-group">
-          <h1 className="fyn1">FYN</h1>
+          <h1 className="fyn1"></h1>
           <div className="data-sorter">
-            <div className="logic-operator">
+            {/* <div className="logic-operator">
               <header className="signal-receiver">
               <h1 className="fyn1">FYN</h1>
                 <div className="signal-transmitter">
@@ -23,7 +23,7 @@ const ConnectionPoint = () => {
                 
                 <Link to={"/dashboard"}><h1 className="testimonials">DASHBOARD</h1></Link>
               </header>
-            </div>
+            </div> */}
             <div className="value-calculator">
               <div className="flow-controller">
                 <div className="data-visualizer">

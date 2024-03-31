@@ -6,8 +6,12 @@ const FrameComponent3 = () => {
     <section className="gallery-inner">
       <div className="frame-parent17">
         <header className="fyn-container">
-          <h3 className="fyn2">FYN</h3>
-          <nav className="frame-nav">
+          <Link to={"/"}>
+            <h3 className="fyn2">
+              <img src="frame2.svg"/>
+            </h3>
+          </Link>
+          {/* <nav className="frame-nav">
             <div className="home-wrapper">
              <Link to={"/"}><h3 className="home1">HOME</h3></Link> 
             </div>
@@ -16,7 +20,7 @@ const FrameComponent3 = () => {
             </div>
             <h3 className="service3">SERVICE</h3>
             <h3 className="testimonials2">TESTIMONIALS</h3>
-          </nav>
+          </nav> */}
         </header>
         <div className="container">
           <img

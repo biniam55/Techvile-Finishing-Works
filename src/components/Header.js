@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Header.css";
 import { Link } from 'react-router-dom';
-import { MdDarkMode } from "react-icons/md";
-import { MdOutlineBrightness2 } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { MdOutlinePlaylistRemove } from "react-icons/md";
 function Header() {
@@ -78,7 +76,7 @@ function Header() {
           <a href="#Testimonials" onClick={(event) => handleNavLinkClick('Testimonials', event)}>Testimonials</a>
           <a href="#ServiceSet" onClick={(event) => handleNavLinkClick('ServiceSet', event)}>ConnectUs</a>
           <Link href="#Dashboard" to="/Dashboard" onClick={(event) => handleNavLinkClick('Dashboard', event)}>Dashboard</Link>
-          <a href="#Contact" onClick={(event) => handleNavLinkClick('Contact', event)}>Contact</a>
+          {/* <a href="#Contact" onClick={(event) => handleNavLinkClick('Contact', event)}>Contact</a> */}
         </nav>
         {/* <div id="dark-mode" onClick={toggleDarkMode}>
           {darkMode ?  <MdOutlineBrightness2 />:<MdDarkMode /> }

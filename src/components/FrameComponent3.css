@@ -9,6 +9,9 @@
   font-family: inherit;
   display: inline-block;
 }
+.fyn2 img{
+  background-color: blue;
+}
 .fyn2 {
   width: 69.6px;
   flex-shrink: 0;
@@ -82,7 +85,7 @@
   gap: var(--gap-xl);
 }
 .container-child {
-  height: 295px;
+  height: 185px;
   flex: 1;
   position: relative;
   max-width: 100%;
@@ -101,7 +104,7 @@
   height: 87px;
   width: 898px;
   position: absolute;
-  top: 102px;
+  top: 60px;
   right: 93px;
   font-size: inherit;
   letter-spacing: 1px;
@@ -117,6 +120,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
+  margin-top: 50px;
 }
 .container,
 .frame-parent17,
@@ -145,6 +149,7 @@
   color: var(--white);
   font-family: var(--material-2-secondary-text);
 }
+
 @media screen and (max-width: 1025px) {
   .gallery-we-have-container5 {
     font-size: var(--font-size-10xl);
@@ -161,7 +166,9 @@
 }
 @media screen and (max-width: 450px) {
   .gallery-we-have-container5 {
-    font-size: var(--font-size-3xl);
+    /* top: 0px; */
+    right: -200px;
+    font-size: 1.2rem;
     line-height: 25px;
   }
 }

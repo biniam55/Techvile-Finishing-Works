@@ -13,6 +13,7 @@
   right: 0;
   max-width: 100%;
   flex-shrink: 0;
+  animation: slide-in 1s ease forwards;
 }
 .image-icon {
   top: 0;
@@ -87,6 +88,16 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 1200px) {
   .data-merger {
     padding-bottom: var(--padding-90xl);
@@ -108,5 +119,9 @@
   .data-merger {
     padding-bottom: 46px;
     box-sizing: border-box;
+  }
+  img{
+    object-fit: contain;
+    margin: auto;
   }
 }
