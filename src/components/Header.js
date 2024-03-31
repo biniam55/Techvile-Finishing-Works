@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "./Header.css";
 import { Link } from 'react-router-dom';
 import { IoMenu } from "react-icons/io5";
-import { MdOutlinePlaylistRemove } from "react-icons/md";
+import { IoMdClose } from "react-icons/io";
 function Header() {
     const [menuActive, setMenuActive] = useState(false);
   const [stickyHeader, setStickyHeader] = useState(false);
@@ -74,7 +74,7 @@ function Header() {
           <a href="#Services" onClick={(event) => handleNavLinkClick('Services', event)}>Services</a>
           <a href="#Gallery" className="active" onClick={(event) => handleNavLinkClick('Gallery', event)}>Gallery</a>
           <a href="#Testimonials" onClick={(event) => handleNavLinkClick('Testimonials', event)}>Testimonials</a>
-          <a href="#ServiceSet" onClick={(event) => handleNavLinkClick('ServiceSet', event)}>ConnectUs</a>
+          <a href="#ServiceSet" onClick={(event) => handleNavLinkClick('ServiceSet', event)}>Connect Us</a>
           <Link href="#Dashboard" to="/Dashboard" onClick={(event) => handleNavLinkClick('Dashboard', event)}>Dashboard</Link>
           {/* <a href="#Contact" onClick={(event) => handleNavLinkClick('Contact', event)}>Contact</a> */}
         </nav>
@@ -82,7 +82,7 @@ function Header() {
           {darkMode ?  <MdOutlineBrightness2 />:<MdDarkMode /> }
         </div> */}
         <div id="menu-icon" onClick={toggleMenu}>
-        {menuActive ?   <MdOutlinePlaylistRemove />:<IoMenu />   }
+        {menuActive ?   <IoMdClose />:<IoMenu />   }
          
         
         </div>

@@ -117,6 +117,8 @@
   display: inline-block;
   min-width: 92px;
   z-index: 3;
+  text-decoration: none;
+  color: white;
 }
 .custom-component-parent,
 .data-visualizer {
