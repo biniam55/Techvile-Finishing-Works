@@ -117,7 +117,6 @@ function App() {
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/sign-in" element={<SignIn handleSubmit={handleSubmit} loggedIn={loggedIn} setLoggedin={setLoggedIn}/>} />
-      {/* protected route */}
       <Route
         path="/dashboard"
         element={loggedIn ? <DashboardPost/> : <Navigate to="/sign-in" />}
