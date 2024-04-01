@@ -1,13 +1,19 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import FrameComponent4 from "../components/FrameComponent4";
 import GroupComponent3 from "../components/GroupComponent3";
 import "./SignIn.css";
 import { Link } from "react-router-dom";
-
+import { IoMdEye } from "react-icons/io";
+import { FaRegEyeSlash } from "react-icons/fa6";
 const SignIn = ({ handleSubmit, loggedIn, setLoggedIn }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  // const navigate = useNavigate();
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
   return (
     <div className="sign-in">
       <h1 className="gallery-we-have-container1">
@@ -46,7 +52,6 @@ const SignIn = ({ handleSubmit, loggedIn, setLoggedIn }) => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
-                    
                   </div>
                 </div>
                 <div className="frame-parent4">
@@ -58,13 +63,18 @@ const SignIn = ({ handleSubmit, loggedIn, setLoggedIn }) => {
                     <input
                       className="input-text3"
                       placeholder="Enter your password"
-                      type="password"
+                      type={showPassword ? "text" : "password"}
                       name="password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                     />
                     <div className="iconeye-wrapper1">
-                      <img className="iconeye3" alt="" src="/iconeye.svg" />
+                      <img
+                        className="iconeye3"
+                        alt=""
+                        src={showPassword ? "/iconeye.svg" : "/image.png"}
+                        onClick={togglePasswordVisibility}
+                      />
                     </div>
                   </div>
                 </div>

@@ -42,6 +42,7 @@ const DesktopMain = () => {
         src={images[currentImageIndex]}
         onClick={handleSwipe} 
         style={imageStyle} 
+        
       />
       {/* <div className="div">
         <img className="image-icon" alt="" src="/image@2x.png" />
