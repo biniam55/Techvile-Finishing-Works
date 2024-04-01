@@ -152,3 +152,24 @@ header{
         display: none;
     }
 }
+@media (max-width: 450px) {
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 30%;
+        padding: 5rem 3%;
+        background: #fdfdfd;
+        border-top: .1 solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        display: none;
+        margin: auto;
+        
+        
+    } 
+    .header{
+        padding: 1rem 3%;
+        top: 125px;
+        height: 0.5rem;
+    }
+}
