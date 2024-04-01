@@ -40,10 +40,10 @@ const Filter = () => {
             <div className="rule-builder">
               <div className="decision-maker">
                 <div className="logic-operator1">
-                  <ErrorHandler title="Transparent Pricing" />
+                  <ErrorHandler title="" />
                   <ErrorHandler
-                    title="Diverse Portfolio"
-                    groupIconAlignSelf="stretch"
+                    title=""
+                    // groupIconAlignSelf="stretch"
                     groupIconFlex="unset"
                     propMargin="0"
                     propMargin1="0"
@@ -54,7 +54,7 @@ const Filter = () => {
                   />
                   <div className="priority-queue">
                     <ErrorHandler
-                      title="Experienced Team"
+                      title=""
                       groupIconAlignSelf="unset"
                       groupIconFlex="1"
                       propMargin="0"

@@ -75,11 +75,11 @@ const ErrorHandler = ({
             <div className="secondary-text">Secondary Text</div>
           </div>
           <div className="trailing-item">
-            <img
+            {/* <img
               className="chevron-right-icon"
               alt=""
               src="/chevron-right.svg"
-            />
+            /> */}
           </div>
         </div>
         <div className="divider">
@@ -91,11 +91,11 @@ const ErrorHandler = ({
           <div className="interaction-state1" />
           <div className="list-item-container1">
             <div className="leading-item1">
-              <img
+              {/* <img
                 className="emoji-symbols-icon1"
                 alt=""
                 src="/emoji-symbols.svg"
-              />
+              /> */}
             </div>
             <div className="text-container1">
               <div className="overline1" />
@@ -105,11 +105,11 @@ const ErrorHandler = ({
               <div className="secondary-text1">Secondary Text</div>
             </div>
             <div className="trailing-item1">
-              <img
+              {/* <img
                 className="chevron-right-icon1"
                 alt=""
                 src="/chevron-right.svg"
-              />
+              /> */}
             </div>
           </div>
           <div className="divider2">
@@ -121,11 +121,11 @@ const ErrorHandler = ({
             <div className="interaction-state2" />
             <div className="list-item-container2">
               <div className="leading-item2">
-                <img
+                {/* <img
                   className="emoji-symbols-icon2"
                   alt=""
                   src="/emoji-symbols.svg"
-                />
+                /> */}
               </div>
               <div className="text-container2">
                 <div className="overline2" />
@@ -135,11 +135,11 @@ const ErrorHandler = ({
                 <div className="secondary-text2">Secondary Text</div>
               </div>
               <div className="trailing-item2">
-                <img
+                {/* <img
                   className="chevron-right-icon2"
                   alt=""
                   src="/chevron-right.svg"
-                />
+                /> */}
               </div>
             </div>
             <div className="divider4">
@@ -151,11 +151,11 @@ const ErrorHandler = ({
               <div className="interaction-state3" />
               <div className="list-item-container3">
                 <div className="leading-item3">
-                  <img
+                  {/* <img
                     className="emoji-symbols-icon3"
                     alt=""
                     src="/emoji-symbols.svg"
-                  />
+                  /> */}
                 </div>
                 <div className="text-container3">
                   <div className="overline3" />
@@ -165,11 +165,11 @@ const ErrorHandler = ({
                   <div className="secondary-text3">Secondary Text</div>
                 </div>
                 <div className="trailing-item3">
-                  <img
+                  {/* <img
                     className="chevron-right-icon3"
                     alt=""
                     src="/chevron-right.svg"
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="divider6">
@@ -181,11 +181,11 @@ const ErrorHandler = ({
                 <div className="interaction-state4" />
                 <div className="list-item-container4">
                   <div className="leading-item4">
-                    <img
+                    {/* <img
                       className="emoji-symbols-icon4"
                       alt=""
                       src="/emoji-symbols.svg"
-                    />
+                    /> */}
                   </div>
                   <div className="text-container4">
                     <div className="overline4" />
@@ -195,11 +195,11 @@ const ErrorHandler = ({
                     <div className="secondary-text4">Secondary Text</div>
                   </div>
                   <div className="trailing-item4">
-                    <img
+                    {/* <img
                       className="chevron-right-icon4"
                       alt=""
                       src="/chevron-right.svg"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="divider8">
@@ -211,11 +211,11 @@ const ErrorHandler = ({
                   <div className="interaction-state5" />
                   <div className="list-item-container5">
                     <div className="leading-item5">
-                      <img
+                      {/* <img
                         className="emoji-symbols-icon5"
                         alt=""
                         src="/emoji-symbols.svg"
-                      />
+                      /> */}
                     </div>
                     <div className="text-container5">
                       <div className="overline5" />
@@ -225,11 +225,11 @@ const ErrorHandler = ({
                       <div className="secondary-text5">Secondary Text</div>
                     </div>
                     <div className="trailing-item5">
-                      <img
+                      {/* <img
                         className="chevron-right-icon5"
                         alt=""
                         src="/chevron-right.svg"
-                      />
+                      /> */}
                     </div>
                   </div>
                   <div className="divider10">
@@ -237,11 +237,11 @@ const ErrorHandler = ({
                   </div>
                 </div>
                 <div className="feature-extractor">
-                  <img
+                  {/* <img
                     className="feature-extractor-child"
                     alt=""
                     src="/group-304.svg"
-                  />
+                  /> */}
                   <img
                     className="feature-extractor-item"
                     loading="lazy"

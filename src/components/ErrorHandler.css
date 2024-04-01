@@ -783,7 +783,7 @@
   height: 65px;
   position: relative;
   max-width: 100%;
-  text-align: left;
+  text-align: center;
   font-size: var(--material-2-overline-size);
   color: var(--light-primary);
   font-family: var(--material-2-secondary-text);

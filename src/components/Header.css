@@ -96,7 +96,7 @@ header{
 @media(max-width:1024px){
     .header{
         padding: 1rem 3%;
-        top: 145px;
+        top: 125px;
         height: 0.5rem;
     }
     section{

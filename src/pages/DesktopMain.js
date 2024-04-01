@@ -12,8 +12,8 @@ const DesktopMain = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
     "/branching-logic@2x.png",
-    "/image-4@2x.png",
-    "/image@2x.png"
+    "/ceramic.jpg",
+    "\eb38a4dce4071ee8fde4cf896c56be4b.jpg"
   ];
   useEffect(() => {
     const timeout = setTimeout(() => {

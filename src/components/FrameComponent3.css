@@ -10,7 +10,7 @@
   display: inline-block;
 }
 .fyn2 img{
-  background-color: lightslategray;
+  background-color:white;
 }
 .fyn2 {
   width: 69.6px;
@@ -159,9 +159,9 @@
     margin-top: 150px;
   }
   .fyn2 img{
-    margin-top: 55px;
+    margin-top: 15px;
     margin-left:-27px;
-    background-color:lightslategray;
+    background-color:white;
     font-size: 1.5rem;
   }
 }

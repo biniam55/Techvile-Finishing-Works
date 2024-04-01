@@ -13,6 +13,7 @@
   min-height: 47px;
   z-index: 1;
 }
+
 .merge-function {
   position: relative;
   letter-spacing: 0.16px;
@@ -78,6 +79,7 @@
   flex-direction: row;
   gap: var(--gap-smi);
 }
+
 .input-processor {
   height: 54.6px;
   display: flex;
@@ -146,6 +148,18 @@
   font-family: var(--font-lora);
   z-index: 1000; 
 }
+.iterative-loop{
+  margin-right: 50px;
+}
+.function-call{
+  position: fixed;
+  margin-left: 250px;
+}
+.data-comparison-wrapper{
+  position: fixed;
+  margin-left: 210px;
+}
+ 
 @media screen and (max-width: 1200px) {
   .rectangle-container {
     flex-wrap: wrap;
@@ -175,5 +189,18 @@
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
+  }
+  .output-formatter img
+  {
+    width: 24px;
+    height: 24px;
+  }
+  .custom-function-icon {
+    margin-right: 25px;
+    width: 25px;
+    height: 25px;
+  }
+  .book-your-free{
+    font-size: 0.9rem;
   }
 }
