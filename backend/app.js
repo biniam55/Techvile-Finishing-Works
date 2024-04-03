@@ -2,11 +2,13 @@ const express = require("express");
 const connectDB = require('./db');
 const mongoose = require("mongoose");
 const postSchema = require("./postSchema")
-// require('dotenv').config();
 const app = express();
 app.use(express.json());
 const cors = require("cors");
-app.use(cors());
+const allowedOrigins = ['http://localhost:3000', 'https://techvile-finishing-backend.vercel.app'];
+app.use(cors({
+  origin: allowedOrigins,
+}));
 connectDB();
 
 require("./postSchema");
