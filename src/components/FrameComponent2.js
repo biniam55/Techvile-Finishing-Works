@@ -25,6 +25,9 @@ const FrameComponent2 = () => {
     <section className="gallery-child">
       <div className="frame-parent18">
         <div className="background-parent">
+        {galleryData.length === 0 ? (
+            <div className="no-data-message"><h1>No data available</h1></div>
+          ) : (
           <div className="grid-container">
             {galleryData.map((item, index) => (
               <div className="grid-item" key={index}>
@@ -53,6 +56,7 @@ const FrameComponent2 = () => {
               </div>
             ))}
           </div>
+        )}
         </div>
       </div>
     </section>
