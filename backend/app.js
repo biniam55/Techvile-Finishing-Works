@@ -5,10 +5,7 @@ const postSchema = require("./postSchema")
 const app = express();
 app.use(express.json());
 const cors = require("cors");
-const allowedOrigins = ['http://localhost:3000', 'https://techvile-finishing-backend.vercel.app'];
-app.use(cors({
-  origin: allowedOrigins,
-}));
+app.use(cors());
 connectDB();
 
 require("./postSchema");
