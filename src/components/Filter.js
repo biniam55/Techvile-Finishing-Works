@@ -1,49 +1,69 @@
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ErrorHandler from "./ErrorHandler";
 import "./Filter.css";
+import axios from "axios";
 
 const Filter = () => {
+  const [galleryData, setGalleryData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          "https://techvile-finishing-backend.vercel.app/get-gallery"
+        );
+        console.log("Fetched image data:", response.data);
+        setGalleryData(response.data.data); // Assuming response.data contains image data
+      } catch (error) {
+        console.error("Error fetching image data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+  console.log("Gallery data:", galleryData);
+
   return (
-    <section className=" filter Gallery" id="Gallery"> 
+    <section className="filter Gallery" id="Gallery">
       <div className="filter">
         <div className="sort">
           <div className="search1">
             <h1 className="our-gallery">Our Gallery</h1>
           </div>
           <div className="combiner">
-            <div className="splitter">
-              <div className="transformer">
-                <img
-                  className="image-icon7"
-                  loading="lazy"
-                  alt=""
-                  src="/image-4@2x.png"
-                />
-              </div>
-              <div className="processor-chain">
-                <img
-                  className="image-icon8"
-                  loading="lazy"
-                  alt=""
-                  src="/image-5@2x.png"
-                />
-                <div className="output-dispenser">
+            {galleryData.slice(0, 1).map((item, index) => (
+              <div className="splitter" key={index}>
+                <div className="transformer">
                   <img
-                    className="output-dispenser-child"
-                    loading="lazy"
-                    alt=""
-                    src="/group-303@2x.png"
+                    className="image-icon7"
+                    src={require(`../images/${item.image}`)}
+                   alt={item.title}
                   />
                 </div>
+                <div className="processor-chain">
+                  <img
+                    className="image-icon8"
+                    src={require(`../images/${item.image}`)}
+                   alt={item.title}
+                  />
+                  <div className="output-dispenser">
+                    <img
+                      className="output-dispenser-child"
+                      src={require(`../images/${item.image}`)}
+                   alt={item.title}
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
+           ))}
+
             <div className="rule-builder">
               <div className="decision-maker">
                 <div className="logic-operator1">
                   <ErrorHandler title="" />
                   <ErrorHandler
                     title=""
-                    // groupIconAlignSelf="stretch"
                     groupIconFlex="unset"
                     propMargin="0"
                     propMargin1="0"
@@ -67,10 +87,11 @@ const Filter = () => {
                   </div>
                 </div>
                 <div className="decision-maker-inner">
-                  <div className="group-div">
+                  <div className="">
                     <div className="frame-child8" />
-                    <Link to={"/gallery"}>
-                      <div className="view-gallery">View Gallery</div>
+                    {/* Link to the gallery page */}
+                    <Link to="/gallery" className="view-gallery-link">
+                      View Gallery
                     </Link>
                   </div>
                 </div>

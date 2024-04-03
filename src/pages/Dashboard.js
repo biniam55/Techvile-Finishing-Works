@@ -33,7 +33,7 @@ const Dashboard = () => {
           headers: { "Content-Type": "multipart/form-data" },
         }
       );
-      setSuccessMessage("Image uploaded successfully!");
+      setSuccessMessage("uploaded successfully!");
       setTimeout(() => {
         setSuccessMessage("");
       }, 3000);
