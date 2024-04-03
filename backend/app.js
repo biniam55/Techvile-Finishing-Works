@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const postSchema = require("./postSchema")
 const app = express();
 app.use(express.json());
+// express
 const cors = require("cors");
 app.use(cors({ origin: true }));
 connectDB();
