@@ -2,6 +2,7 @@ const express = require("express");
 const connectDB = require('./db');
 const mongoose = require("mongoose");
 const postSchema = require("./postSchema")
+// require('dotenv').config();
 const app = express();
 app.use(express.json());
 const cors = require("cors");
