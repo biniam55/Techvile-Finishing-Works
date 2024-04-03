@@ -35,8 +35,8 @@ const FrameComponent2 = () => {
                   <img
                     src={require(`../images/${item.image}`)}
                     alt={item.title}
-                    height={100}
-                    width={100}
+                    // height={100}
+                    // width={100}
                   />
                   {/* <div className="pictures">
                     <div className="div8" />

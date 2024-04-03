@@ -537,10 +537,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   grid-gap: 20px; 
+  
 }
 
 .grid-item {
-  width: 100%; 
+  width: 80%; 
 }
 
 .grid-item .background {
@@ -570,4 +571,10 @@
     grid-template-columns: repeat(1, 1fr); 
   }
 }
-
+@media screen and (max-width: 450px) {
+  .grid-container {
+    margin-left: 15px;
+    width: auto;
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
