@@ -27,7 +27,7 @@ const Dashboard = () => {
 
     try {
       const result = await axios.post(
-        "http://localhost:5000/upload-image",
+        "https://vercel.com/binis-projects/techvile-finishing-backend/upload-image",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
