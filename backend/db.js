@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
-const mongoUrl = "mongodb+srv://biniamdegu44:7qfLKjEgQXCf1h80@cluster0.fmod1mb.mongodb.net/Techviletech?retryWrites=true&w=majority&appName=Cluster0";
+require('dotenv').config();
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(mongoUrl, {
+    await mongoose.connect(process.env.mongourl, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
