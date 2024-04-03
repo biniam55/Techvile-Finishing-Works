@@ -3,8 +3,6 @@ import FrameComponent4 from "../components/FrameComponent4";
 import GroupComponent3 from "../components/GroupComponent3";
 import "./SignIn.css";
 import { Link } from "react-router-dom";
-import { IoMdEye } from "react-icons/io";
-import { FaRegEyeSlash } from "react-icons/fa6";
 const SignIn = ({ handleSubmit, loggedIn, setLoggedIn }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

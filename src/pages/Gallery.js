@@ -12,7 +12,7 @@ const Gallery = () => {
       <FrameComponent3 />
       <FrameComponent />
       <FrameComponent2 />
-      <FrameComponent1 />
+      {/* <FrameComponent1 /> */}
       {/* <GroupComponent2 /> */}
       <GroupComponent />
       <div className="rectangle2" />

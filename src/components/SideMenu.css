@@ -279,7 +279,7 @@
   gap: var(--gap-xl);
 }
 .side-menu1 {
-  height: 1132px;
+  height: 832px;
   width: 306px;
   background-color: var(--white);
   box-shadow: 0 10px 60px rgba(226, 236, 249, 0.5);

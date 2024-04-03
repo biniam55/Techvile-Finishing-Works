@@ -2,8 +2,50 @@ import SideMenu1 from "../components/SideMenu1";
 import SideMenu from "../components/SideMenu";
 import FrameComponent5 from "../components/FrameComponent5";
 import "./Dashboard.css";
-
+import { useState } from "react";
+import axios from "axios";
+import { Link } from "react-router-dom";
 const Dashboard = () => {
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [image, setImage] = useState("");
+  const [imageUrl, setImageUrl] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const handleImageChange = (e) => {
+    e.preventDefault();
+    // console.log(e.target.files[0]);
+    setImage(e.target.files[0]);
+    setImageUrl(URL.createObjectURL(e.target.files[0]));
+  };
+  const handleUpload = async (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append("title", title);
+    formData.append("description", description);
+    formData.append("image", image);
+
+    try {
+      const result = await axios.post(
+        "http://localhost:5000/upload-image",
+        formData,
+        {
+          headers: { "Content-Type": "multipart/form-data" },
+        }
+      );
+      setSuccessMessage("Image uploaded successfully!");
+      setTimeout(() => {
+        setSuccessMessage("");
+      }, 3000);
+    } catch (error) {
+      setErrorMessage("Error uploading image. Please try again later.");
+      console.error("Error uploading image:", error);
+      setTimeout(() => {
+        setErrorMessage("");
+      }, 3000);
+    }
+  };
+
   return (
     <div className="dashboard">
       <div className="gallery-we-have-container2">
@@ -13,7 +55,7 @@ const Dashboard = () => {
         </p>
       </div>
       <main className="dashboard-httpsbitlyavi">
-        <SideMenu1 />
+        {/* <SideMenu1 /> */}
         <div className="post-image-wrapper">
           <h2 className="post-image">{`Post Image `}</h2>
         </div>
@@ -28,72 +70,68 @@ const Dashboard = () => {
           <div className="manage-post-parent">
             <h2 className="manage-post">{`Manage Post  `}</h2>
             <div className="frame-wrapper">
-              <div className="frame-parent5">
-                <div className="vector-wrapper">
-                  <img
-                    className="frame-item"
-                    loading="lazy"
-                    alt=""
-                    src="/ellipse-62.svg"
-                  />
-                </div>
+              <form className="frame-parent5" onSubmit={handleUpload}>
+                <div className="vector-wrapper"></div>
                 <div className="upload-image-button-wrapper">
                   <div className="upload-image-button">
                     <div className="login-now-button1">
-                      <FrameComponent5 title="Title" context="....." />
-                      <FrameComponent5
-                        title="Description(optional)"
-                        context="....."
-                        propAlignSelf="stretch"
-                        propPosition="unset"
-                        propTop="unset"
-                        propLeft="unset"
-                        propWidth="unset"
+                      <input
+                        className="input-box"
+                        type="text"
+                        value={title}
+                        placeholder="Title"
+                        onChange={(e) => setTitle(e.target.value)}
                       />
-                    </div>
-                    <div className="frame-parent6">
-                      <div className="upload-image-wrapper">
-                        <img
-                          className="upload-image-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/upload-image.svg"
+                      <input
+                        className="input-box"
+                        type="text"
+                        value={description}
+                        placeholder="Description(optional)"
+                        onChange={(e) => setDescription(e.target.value)}
+                      />
+                      <div className="choose-file">
+                        <label
+                          className="choose-file-btn"
+                          htmlFor="image-upload"
+                        >
+                          Choose Image
+                        </label>
+                        <input
+                          id="image-upload"
+                          type="file"
+                          accept="image/*"
+                          onChange={handleImageChange}
                         />
+                        {imageUrl && (
+                          <img
+                            src={imageUrl}
+                            alt="Selected Image"
+                            className="selected-image"
+                          />
+                        )}
                       </div>
-                      <img
-                        className="frame-inner"
-                        loading="lazy"
-                        alt=""
-                        src="/frame-300.svg"
-                      />
                     </div>
                   </div>
                 </div>
                 <div className="button-wrapper">
-                  <div className="button">
-                    <div className="login-now">Upload</div>
-                  </div>
+                  <button type="submit" className="button">
+                    <div className="upload-btn">Upload</div>
+                  </button>
+                  <Link to="/gallery" className="link-button">
+                    Go to Gallery
+                  </Link>
                 </div>
-              </div>
+                {successMessage && (
+                  <div className="success-message">{successMessage}</div>
+                )}
+                {errorMessage && (
+                  <div className="error-message">{errorMessage}</div>
+                )}
+              </form>
             </div>
           </div>
         </div>
       </div>
-      <FrameComponent5
-        title="Add new"
-        context="Image"
-        propAlignSelf="unset"
-        propPosition="absolute"
-        propTop="237px"
-        propLeft="487px"
-        propWidth="555px"
-      />
-      <img
-        className="chevron-down-2-icon"
-        loading="lazy"
-        alt=""
-        src="/chevrondown-2-2.svg"
-      />
     </div>
   );
 };

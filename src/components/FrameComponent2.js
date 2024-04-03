@@ -1,102 +1,57 @@
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./FrameComponent2.css";
 
 const FrameComponent2 = () => {
+  const [galleryData, setGalleryData] = useState([]);
+
+  useEffect(() => {
+    getImageData();
+  }, []);
+
+  const getImageData = async () => {
+    try {
+      const response = await axios.get("http://localhost:5000/get-gallery");
+      const sortedData = response.data.data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+      // const limitedData = sortedData.slice(0, 9);
+      setGalleryData(sortedData);
+      console.log(response.data.data);
+    } catch (error) {
+      console.error("Error fetching gallery data:", error);
+    }
+  };
+
   return (
     <section className="gallery-child">
       <div className="frame-parent18">
         <div className="background-parent">
-          <div className="background">
-            <div className="pictures">
-              <div className="div8" />
-              <div className="pictures-child" />
-            </div>
-            <div className="background-inner">
-              <div className="title-parent">
-                <div className="title8">Title</div>
-                <div className="something-short-and">
-                  Something short and simple here
+          <div className="grid-container">
+            {galleryData.map((item, index) => (
+              <div className="grid-item" key={index}>
+                <div className="background">
+                  <img
+                    src={require(`../images/${item.image}`)}
+                    alt={item.title}
+                    height={100}
+                    width={100}
+                  />
+                  {/* <div className="pictures">
+                    <div className="div8" />
+                    <div className="pictures-child">
+                      <img src={item.image} alt={item.title} />
+                    </div>
+                  </div> */}
+                  <div className="background-inner">
+                    <div className="title-parent">
+                      <div className="title8">{item.title}</div>
+                      <div className="something-short-and">
+                        {item.description}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="div9">
-            <div className="pictures-parent">
-              <img
-                className="pictures-icon"
-                loading="lazy"
-                alt=""
-                src="/pictures1@2x.png"
-              />
-              <div className="div10" />
-            </div>
-            <div className="inner">
-              <div className="title-group">
-                <div className="title9">Title</div>
-                <div className="something-short-and1">
-                  Something short and simple here
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="subtitle">
-          <div className="pictures1">
-            <div className="pictures2">
-              <div className="title10" />
-              <div className="pictures-item" />
-            </div>
-            <div className="pictures-inner">
-              <div className="title-container">
-                <div className="title11">Title</div>
-                <div className="something-short-and2">
-                  Something short and simple here
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-gallery">
-            <div className="pictures3">
-              <div className="container1" />
-              <div className="pictures-child1" />
-            </div>
-            <div className="home-gallery-inner">
-              <div className="title-parent1">
-                <div className="title12">Title</div>
-                <div className="something-short-and3">
-                  Something short and simple here
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="subtitle1">
-          <div className="div11">
-            <div className="pictures4">
-              <div className="div12" />
-              <div className="pictures-child2" />
-            </div>
-            <div className="child">
-              <div className="title-parent2">
-                <div className="title13">Title</div>
-                <div className="something-short-and4">
-                  Something short and simple here
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="div13">
-            <div className="pictures5">
-              <div className="div14" />
-              <div className="pictures-child3" />
-            </div>
-            <div className="inner1">
-              <div className="title-parent3">
-                <div className="title14">Title</div>
-                <div className="something-short-and5">
-                  Something short and simple here
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

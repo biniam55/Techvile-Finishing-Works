@@ -296,7 +296,10 @@
   font-family: var(--material-2-secondary-text);
 }
 .group-section {
-  height: 637.8px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 337.8px;
   background-color: var(--color-gray-300);
   padding: var(--padding-112xl-9) var(--padding-0) var(--padding-15xl-1);
   box-sizing: border-box;
@@ -335,6 +338,7 @@
     gap: 18px 36.3px;
   }
   .group-section {
+    min-height: auto;
     gap: 66px 132px;
   }
 }
