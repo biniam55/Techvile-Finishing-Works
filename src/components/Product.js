@@ -1,6 +1,7 @@
 import "./Product.css";
 
 const Product = () => {
+
   return (
     <div className="product">
       <img className="product-child" alt="" src="/rectangle-30.svg" />
@@ -55,7 +56,7 @@ const Product = () => {
             </div>
             <div className="proximity">
               <div className="layouts">
-                <div className="arrangements">
+                {/* <div className="arrangements">
                   <div className="image-rotate-parent">
                     <div className="image-rotate">
                       <div className="marvel">Marvel</div>
@@ -70,12 +71,12 @@ const Product = () => {
                       <div className="remove">Remove</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="arrangements1">
                   <img className="arrangements-child" loading="lazy" alt="" />
                 </div>
                 <div className="arrangements2">
-                  <div className="frame-parent58">
+                  {/* <div className="frame-parent58">
                     <div className="marvel-wrapper">
                       <div className="marvel1">Marvel</div>
                     </div>
@@ -88,7 +89,7 @@ const Product = () => {
                     <button className="remove-container">
                       <div className="remove1">Remove</div>
                     </button>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="arrangements3">
                   <img className="arrangements-item" loading="lazy" alt="" />

@@ -1,6 +1,6 @@
-import SideMenu1 from "../components/SideMenu1";
+// import SideMenu1 from "../components/SideMenu1";
 import SideMenu from "../components/SideMenu";
-import FrameComponent5 from "../components/FrameComponent5";
+// import FrameComponent5 from "../components/FrameComponent5";
 import "./Dashboard.css";
 import { useState } from "react";
 import axios from "axios";
@@ -27,7 +27,7 @@ const Dashboard = () => {
 
     try {
       const result = await axios.post(
-        "https://finishing-backend-render.onrender.com/upload-image",
+        "https://finishing-frontend-pmdy.vercel.app/upload-image",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
