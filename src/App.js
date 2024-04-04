@@ -11,13 +11,13 @@ import DesktopMain from "./pages/DesktopMain";
 import Gallery from "./pages/Gallery";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
-import Dashboard from "./pages/Dashboard";
+import DashboardPost from "./pages/Dashboard";
 import MobileHome from "./pages/MobileHome";
 import MobileGallery from "./pages/MobileGallery";
-import Dashboard1 from "./pages/Dashboard1";
+// import Dashboard1 from "./pages/Dashboard1";
 import MobileSignUp from "./pages/MobileSignUp";
 import MobileSignIn from "./pages/MobileSignIn";
-import DashboardPost from "./pages/Dashboard2";
+import Dashboard from "./pages/Dashboard2";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -118,19 +118,19 @@ function App() {
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/sign-in" element={<SignIn handleSubmit={handleSubmit} loggedIn={loggedIn} setLoggedin={setLoggedIn}/>} />
       <Route
-        path="/dashboard"
-        element={loggedIn ? <DashboardPost/> : <Navigate to="/sign-in" />}
+        path="/dashboard2"
+        element={loggedIn ? <Dashboard/> : <Navigate to="/sign-in" />}
       />
       <Route
         path="/dashboard1"
-        element={loggedIn ? <Dashboard/> : <Navigate to="/" />}
+        element={loggedIn ? <DashboardPost/> : <Navigate to="/" />}
       />
       <Route path="/mobile-home" element={<MobileHome />} />
       <Route path="/mobile-gallery" element={<MobileGallery />} />
-      <Route path="/dashboard1" element={<Dashboard1 />} />
+      {/* <Route path="/dashboard2" element={<Dashboard1 />} /> */}
       <Route path="/mobile-sign-up" element={<MobileSignUp />} />
       <Route path="/mobile-sign-in" element={<MobileSignIn />} />
-      <Route path="/dashboard2" element={<DashboardPost />} />
+      {/* <Route path="/dashboard2" element={<DashboardPost />} /> */}
     </Routes>
   );
 }

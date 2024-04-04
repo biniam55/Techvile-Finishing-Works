@@ -310,7 +310,7 @@
   color: var(--white);
   font-family: var(--font-lora);
 }
-@media screen and (max-width: 975px) {
+/* @media screen and (max-width: 975px) {
   .div4,
   .div5,
   .gallery-we-have-container4 {
@@ -369,4 +369,4 @@
   .div5 {
     line-height: 19px;
   }
-}
+} */

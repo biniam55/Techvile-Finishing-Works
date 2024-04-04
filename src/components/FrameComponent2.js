@@ -11,7 +11,7 @@ const FrameComponent2 = () => {
 
   const getImageData = async () => {
     try {
-      const response = await axios.get("https://techvile-finishing-backend.vercel.app/get-gallery");
+      const response = await axios.get("https://finishing-backend-render.onrender.com/get-gallery");
       const sortedData = response.data.data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
       // const limitedData = sortedData.slice(0, 9);
       setGalleryData(sortedData);

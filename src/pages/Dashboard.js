@@ -27,7 +27,7 @@ const Dashboard = () => {
 
     try {
       const result = await axios.post(
-        "https://techvile-finishing-backend.vercel.app/upload-image",
+        "https://finishing-backend-render.onrender.com/upload-image",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
@@ -39,7 +39,7 @@ const Dashboard = () => {
       }, 3000);
     } catch (error) {
       setErrorMessage("Error uploading image. Please try again later.");
-      console.error("Error uploading image:", error);
+      console.log("Error uploading image:", error);
       setTimeout(() => {
         setErrorMessage("");
       }, 3000);

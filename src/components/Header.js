@@ -75,7 +75,7 @@ function Header() {
           <a href="#Gallery" className="active" onClick={(event) => handleNavLinkClick('Gallery', event)}>Gallery</a>
           <a href="#Testimonials" onClick={(event) => handleNavLinkClick('Testimonials', event)}>Testimonials</a>
           <a href="#ServiceSet" onClick={(event) => handleNavLinkClick('ServiceSet', event)}>Connect Us</a>
-          <Link href="#Dashboard" to="/Dashboard" onClick={(event) => handleNavLinkClick('Dashboard', event)}>Dashboard</Link>
+          <Link href="#Dashboard" to="/Dashboard2" onClick={(event) => handleNavLinkClick('Dashboard', event)}>Dashboard</Link>
           {/* <a href="#Contact" onClick={(event) => handleNavLinkClick('Contact', event)}>Contact</a> */}
         </nav>
         {/* <div id="dark-mode" onClick={toggleDarkMode}>
