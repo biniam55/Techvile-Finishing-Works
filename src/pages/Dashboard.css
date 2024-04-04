@@ -367,7 +367,7 @@ input[type="file"] {
   background-color: #0056b3; /* Set your desired hover background color */
 }
 
-/* 
+
 @media screen and (max-width: 1350px) {
   .post-image-wrapper {
     max-width: 100%;
@@ -432,4 +432,4 @@ input[type="file"] {
   .dashboard-httpsbitlyavi1 {
     gap: 69px 17px;
   }
-} */
+}
