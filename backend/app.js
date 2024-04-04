@@ -2,13 +2,14 @@ const express = require("express");
 const connectDB = require('./db');
 const mongoose = require("mongoose");
 const postSchema = require("./postSchema")
+
 const app = express();
 app.use(express.json());
 // express
 const cors = require("cors");
 app.use(cors({ origin: true }));
 connectDB();
-
+require ('dotenv').config();
 require("./postSchema");
 const Images = mongoose.model("Image");
 
@@ -16,7 +17,7 @@ const multer = require('multer')
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "../src/images/");
+    cb(null, process.env.UPLOAD_DIR);
   },
   filename: function (req, file, cb) {
     const uniqueSuffix = Date.now();
