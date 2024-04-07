@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Product.css";
 import axios from "axios"
+import {format} from 'date-fns/format';
 const Product = () => {
   const [ProductData, setProductData] = useState([]);
   useEffect(() => {
@@ -20,6 +21,16 @@ const Product = () => {
       console.log(response.data.data);
     } catch (error) {
       console.error("Error fetching gallery data:", error);
+    }
+  };
+  const handleRemoveItem = async (itemId) => {
+    try {
+      await axios.delete(`http://localhost:5000/products:id/${itemId}`);
+      // Filter out the removed item from the productData state
+      console.log('Item removed successfully');
+      setProductData(productData.filter(item => item._id !== itemId));
+    } catch (error) {
+      console.error("Error removing item:", error);
     }
   };
   return (
@@ -91,13 +102,13 @@ const Product = () => {
                         <div className="marvel">{item.title}</div>
                       </div>
                       <div className="shape-scale-y">
-                        <div className="shape-transform">24-10-2024</div>
+                        <div className="shape-transform">{format(new Date(item.createdAt), 'MM/dd/yyyy')}</div>
                       </div>
                       <div className="shape-mirror-v">
                         <div className="gallery20">Gallery</div>
                       </div>
                       <div className="remove-wrapper">
-                        <div className="remove">Remove</div>
+                        <div className="remove" onClick={() => handleRemoveItem(item._id)}>Remove</div>
                       </div>
                     </div>
                   
