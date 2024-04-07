@@ -310,6 +310,101 @@
   color: var(--white);
   font-family: var(--font-lora);
 }
+
+.frame-wrapper23 {
+  height: 85px;
+  flex-direction: column;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.frame-parent66,
+.frame-wrapper23,
+.total-gallery-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent66 {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  /* margin-right: 50px; */
+}
+.frame-child35 {
+  height: 84px;
+  width: 84px;
+  position: relative;
+  z-index: 1;
+}
+.total-gallery-parent {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.total-gallery1 {
+  letter-spacing: -0.01em;
+  white-space: pre-wrap;
+  display: inline-block;
+  min-width: 90px;
+}
+.arrow-up-1-icon1,
+.div37,
+.total-gallery1 {
+  position: relative;
+  z-index: 1;
+}
+.arrow-up-1-parent,
+.images-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrow-up-1-parent {
+  height: 20px;
+  flex-direction: row;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-300);
+}
+.arrow-up-1-parent,
+.images-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrow-up-1-icon1,
+  .div37,
+  .total-gallery1 {
+    position: relative;
+    z-index: 1;
+  }
+  .arrow-up-1-icon1 {
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+  }
+  .images-wrapper {
+    flex-direction: column;
+    padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  }
+  .color-palette-wrapper {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xl) var(--padding-0) var(--padding-0);
+    box-sizing: border-box;
+  }
+  .color-palette-icon {
+    width: 42px;
+    height: 42px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 3;
+  }
 @media screen and (max-width: 975px) {
   .div4,
   .div5,

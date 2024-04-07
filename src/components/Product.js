@@ -1,10 +1,29 @@
+import { useEffect, useState } from "react";
 import "./Product.css";
-
+import axios from "axios"
 const Product = () => {
-
+  const [ProductData, setProductData] = useState([]);
+  useEffect(() => {
+    getImageData();
+  }, []);
+  const getImageData = async () => {
+    try {
+      const response = await axios.get(
+        "https://finishing-frontend-pmdy.vercel.app/get-gallery"
+      );
+      const sortedData = response.data.data.sort(
+        (a, b) => new Date(b.timestamp) - new Date(a.timestamp)
+      );
+      console.log(response.data)
+      // const limitedData = sortedData.slice(0, 9);
+      setProductData(sortedData);
+      console.log(response.data.data);
+    } catch (error) {
+      console.error("Error fetching gallery data:", error);
+    }
+  };
   return (
     <div className="product">
-      <img className="product-child" alt="" src="/rectangle-30.svg" />
       <div className="image-assemble">
         <h3 className="all-posts1">All Posts</h3>
         <div className="path-intersect">
@@ -17,7 +36,7 @@ const Product = () => {
             <div className="rectangle-parent15">
               <div className="frame-child32" />
               <div className="short-by-container">
-                <span>{`Short by : `}</span>
+                <span>{`Sorted by : `}</span>
                 <span className="newest">Newest</span>
               </div>
               <img
@@ -29,6 +48,7 @@ const Product = () => {
           </div>
         </div>
       </div>
+
       <div className="slide-transition">
         <div className="zoom-transition">
           <div className="wipe-transition">
@@ -51,171 +71,46 @@ const Product = () => {
                 </div>
               </div>
             </div>
-            <div className="backgrounds">
+            {/* <div className="backgrounds">
               <img className="backgrounds-child" loading="lazy" alt="" />
-            </div>
+            </div> */}
+
             <div className="proximity">
               <div className="layouts">
-                {/* <div className="arrangements">
-                  <div className="image-rotate-parent">
-                    <div className="image-rotate">
-                      <div className="marvel">Marvel</div>
+              {ProductData.map((item, index) => (
+                <div className="arrangements" key={index}>
+                  
+                    <div className="image-rotate-parent" >
+                      <div className="image-r frame-child36">
+                        <img
+                          src={require(`../images/${item.image}`)}
+                          alt={item.title}
+                        />
+                      </div>
+                      <div className="image-rotate">
+                        <div className="marvel">{item.title}</div>
+                      </div>
+                      <div className="shape-scale-y">
+                        <div className="shape-transform">24-10-2024</div>
+                      </div>
+                      <div className="shape-mirror-v">
+                        <div className="gallery20">Gallery</div>
+                      </div>
+                      <div className="remove-wrapper">
+                        <div className="remove">Remove</div>
+                      </div>
                     </div>
-                    <div className="shape-scale-y">
-                      <div className="shape-transform">24-10-2024</div>
-                    </div>
-                    <div className="shape-mirror-v">
-                      <div className="gallery20">Gallery</div>
-                    </div>
-                    <div className="remove-wrapper">
-                      <div className="remove">Remove</div>
-                    </div>
-                  </div>
-                </div> */}
-                <div className="arrangements1">
-                  <img className="arrangements-child" loading="lazy" alt="" />
+                  
                 </div>
-                <div className="arrangements2">
-                  {/* <div className="frame-parent58">
-                    <div className="marvel-wrapper">
-                      <div className="marvel1">Marvel</div>
-                    </div>
-                    <div className="wrapper2">
-                      <div className="div25">24-10-2024</div>
-                    </div>
-                    <div className="gallery-wrapper1">
-                      <div className="gallery21">Gallery</div>
-                    </div>
-                    <button className="remove-container">
-                      <div className="remove1">Remove</div>
-                    </button>
-                  </div> */}
-                </div>
-                <div className="arrangements3">
-                  <img className="arrangements-item" loading="lazy" alt="" />
-                </div>
-                <div className="arrangements4">
-                  <div className="frame-parent59">
-                    <div className="marvel-container">
-                      <div className="marvel2">Marvel</div>
-                    </div>
-                    <div className="wrapper3">
-                      <div className="div26">24-10-2024</div>
-                    </div>
-                    <div className="gallery-wrapper2">
-                      <div className="gallery22">Gallery</div>
-                    </div>
-                    <button className="remove-frame">
-                      <div className="remove2">Remove</div>
-                    </button>
-                  </div>
-                </div>
-                <div className="layouts-child" />
-                <div className="arrangements5">
-                  <div className="frame-parent60">
-                    <div className="marvel-frame">
-                      <div className="marvel3">Marvel</div>
-                    </div>
-                    <div className="wrapper4">
-                      <div className="div27">24-10-2024</div>
-                    </div>
-                    <div className="service-wrapper">
-                      <div className="service4">Service</div>
-                    </div>
-                    <button className="frame-button">
-                      <div className="remove3">Remove</div>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="zoom-transition-inner">
-            <div className="image-blur-parent">
-              <img className="image-blur-icon" loading="lazy" alt="" />
-              <div className="image-brightness">
-                <div className="image-contrast">
-                  <div className="shape-opacity">
-                    <div className="marvel-parent">
-                      <div className="marvel4">Marvel</div>
-                      <div className="marvel5">Marvel</div>
-                    </div>
-                  </div>
-                  <div className="shape-opacity1">
-                    <div className="group">
-                      <div className="div28">24-10-2024</div>
-                      <div className="div29">24-10-2024</div>
-                    </div>
-                  </div>
-                  <div className="data-aggregator-wrapper">
-                    <div className="data-aggregator1">
-                      <div className="service5">Service</div>
-                      <div className="service6">Service</div>
-                    </div>
-                  </div>
-                  <div className="value-transformer1">
-                    <button className="output-combiner">
-                      <div className="remove4">Remove</div>
-                    </button>
-                    <div className="output-combiner1">
-                      <img
-                        className="output-combiner-child"
-                        loading="lazy"
-                        alt=""
-                      />
-                      <button className="error-handler3">
-                        <div className="remove5">Remove</div>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="summarizer">
-            <div className="frame-parent61">
-              <div className="marvel-wrapper1">
-                <div className="marvel6">Marvel</div>
-              </div>
-              <div className="wrapper5">
-                <div className="div30">24-10-2024</div>
-              </div>
-              <div className="gallery-wrapper3">
-                <div className="gallery23">Gallery</div>
-              </div>
-              <div className="line-parent">
-                <img className="line-icon" loading="lazy" alt="" />
-                <button className="remove-wrapper1">
-                  <div className="remove6">Remove</div>
-                </button>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="calculator">
         <div className="splitter1">
-          <div className="joiner">
-            <div className="line-group">
-              <img className="frame-child33" loading="lazy" alt="" />
-              <div className="frame-wrapper22">
-                <div className="frame-parent62">
-                  <div className="marvel-wrapper2">
-                    <div className="marvel7">Marvel</div>
-                  </div>
-                  <div className="wrapper6">
-                    <div className="div31">24-10-2024</div>
-                  </div>
-                  <div className="gallery-wrapper4">
-                    <div className="gallery24">Gallery</div>
-                  </div>
-                  <button className="remove-wrapper2">
-                    <div className="remove7">Remove</div>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="splitter-inner">
             <img className="frame-child34" loading="lazy" alt="" />
           </div>
@@ -245,7 +140,8 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="frame-parent65">
+
+      {/* <div className="frame-parent65">
         <div className="frame-wrapper23">
           <div className="frame-parent66">
             <div className="frame-parent67">
@@ -274,7 +170,6 @@ const Product = () => {
             </div>
           </div>
         </div>
-        <img className="frame-child36" alt="" src="/group-10-2.svg" />
         <div className="shape-container" />
         <div className="color-palette-wrapper">
           <img
@@ -284,7 +179,7 @@ const Product = () => {
             src="/frame-22.svg"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
