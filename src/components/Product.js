@@ -25,10 +25,10 @@ const Product = () => {
   };
   const handleRemoveItem = async (itemId) => {
     try {
-      await axios.delete(`http://localhost:5000/products:id/${itemId}`);
+      await axios.delete(`https://finishing-frontend-pmdy.vercel.app/products/${itemId}`);
       // Filter out the removed item from the productData state
       console.log('Item removed successfully');
-      setProductData(productData.filter(item => item._id !== itemId));
+      setProductData(ProductData.filter(item => item._id !== itemId));
     } catch (error) {
       console.error("Error removing item:", error);
     }

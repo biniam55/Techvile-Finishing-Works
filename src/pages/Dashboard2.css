@@ -405,7 +405,7 @@
     flex-shrink: 0;
     z-index: 3;
   }
-@media screen and (max-width: 975px) {
+/* @media screen and (max-width: 975px) {
   .div4,
   .div5,
   .gallery-we-have-container4 {
@@ -464,4 +464,4 @@
   .div5 {
     line-height: 19px;
   }
-}
+} */
