@@ -57,9 +57,16 @@ app.get("/get-gallery", async (req, res) => {
 
   app.delete('/products/:id', async (req, res) => {
     try {
-      await Images.findByIdAndRemove(req.params.id);
-      res.json({ message: 'Product deleted' });
+      const { id } = req.params;
+      const product = await Images.findByIdAndDelete(id);
+      // const deletedProduct = await Images.findByIdAndRemove(req.params.id);
+      if (!product) {
+        return res.status(404).json({ message: 'Product not found' });
+      }
+      res.json({ message: 'Product deleted', product });
+      console.log("Product deleted successfully");
     } catch (err) {
       res.status(500).json({ message: err.message });
     }
   });
+  
